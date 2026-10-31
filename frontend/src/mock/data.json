@@ -1,0 +1,3941 @@
+{
+    "ownerId": "user_alex",
+    "categories": [
+        {
+            "slug": "ui-kits",
+            "name": "UI Kits",
+            "description": "Figma and Sketch systems, screens and components."
+        },
+        {
+            "slug": "code-templates",
+            "name": "Code Templates",
+            "description": "Starters, dashboards and boilerplates that ship."
+        },
+        {
+            "slug": "icons",
+            "name": "Icon Sets",
+            "description": "Pixel-tuned glyphs in SVG, PNG and icon fonts."
+        },
+        {
+            "slug": "illustrations",
+            "name": "Illustrations",
+            "description": "Scenes, characters and 3D renders for product work."
+        },
+        {
+            "slug": "fonts",
+            "name": "Fonts",
+            "description": "Display and text families with web licences."
+        },
+        {
+            "slug": "ebooks",
+            "name": "E-books & Guides",
+            "description": "Playbooks and handbooks from working practitioners."
+        },
+        {
+            "slug": "notion-templates",
+            "name": "Notion Templates",
+            "description": "Workspaces, planners and trackers."
+        },
+        {
+            "slug": "presets",
+            "name": "Photo Presets",
+            "description": "Lightroom presets and LUTs for consistent grading."
+        },
+        {
+            "slug": "audio",
+            "name": "Audio & SFX",
+            "description": "Interface sounds, loops and sample packs."
+        }
+    ],
+    "sellers": [
+        {
+            "id": "seed_seller_northlight",
+            "name": "Northlight Studio",
+            "bio": "A two-person product studio in Oslo building design systems and SaaS starters we use on client work first.",
+            "avatarUrl": null,
+            "joinedAgo": 35389448940
+        },
+        {
+            "id": "seed_seller_glyphworks",
+            "name": "Glyphworks",
+            "bio": "Icons, type and illustration drawn on a strict grid. Every glyph hand-hinted at 16, 20 and 24px.",
+            "avatarUrl": null,
+            "joinedAgo": 35389448940
+        },
+        {
+            "id": "seed_seller_paperpixel",
+            "name": "Paper & Pixel",
+            "bio": "Guides and Notion systems for founders, freelancers and small teams who would rather ship than organise.",
+            "avatarUrl": null,
+            "joinedAgo": 35389448940
+        },
+        {
+            "id": "seed_seller_grainfield",
+            "name": "Grainfield",
+            "bio": "Film-inspired presets and field-recorded sound for photographers and motion designers.",
+            "avatarUrl": null,
+            "joinedAgo": 35389448940
+        },
+        {
+            "id": "user_alex",
+            "name": "Northlight Studio",
+            "bio": "A two-person product studio in Oslo building design systems and SaaS starters we use on client work first.",
+            "avatarUrl": null,
+            "joinedAgo": 829513626
+        }
+    ],
+    "products": [
+        {
+            "id": "29186360-5848-4725-b6b1-1969db8eecb8",
+            "sellerId": "seed_seller_grainfield",
+            "category": "presets",
+            "slug": "cinematic-luts-pack",
+            "title": "Cinematic LUTs — Teal & Amber",
+            "tagline": "30 LUTs for Premiere, Resolve and Final Cut with log and Rec.709 versions.",
+            "description": "A grading pack built around complementary teal and amber palettes.\n\n### What's included\n- 30 .cube LUTs × 3 input profiles\n- Install guide",
+            "features": [
+                "30 LUTs in .cube format",
+                "S-Log3, V-Log and Rec.709 versions",
+                "Works in all major editors"
+            ],
+            "tags": [
+                "luts",
+                "video",
+                "color grading",
+                "premiere",
+                "davinci resolve",
+                "cinematic"
+            ],
+            "targetAudience": "Video editors and filmmakers.",
+            "seoTitle": "Cinematic LUTs — Teal & Amber",
+            "seoDescription": "30 LUTs for Premiere, Resolve and Final Cut with log and Rec.709 versions.",
+            "priceCents": 3900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "2.2.0",
+            "file": { "name": "cinematic-luts-pack.zip", "size": 601 },
+            "thumbnailUrl": "/mock/covers/cinematic-luts-pack.webp",
+            "screenshots": [],
+            "salesCount": 10,
+            "viewCount": 441,
+            "rating": 4.2,
+            "ratingCount": 5,
+            "createdAgo": 28304648940,
+            "updatedAgo": 1002248940
+        },
+        {
+            "id": "6abad3b1-b7e5-4ae0-82b0-bad3f40df1e1",
+            "sellerId": "seed_seller_grainfield",
+            "category": "audio",
+            "slug": "lofi-loops-vol-1",
+            "title": "Lo-fi Loops Vol. 1",
+            "tagline": "60 royalty-free lo-fi loops and stems for videos and streams. Free.",
+            "description": "Warm, dusty loops for background music.\n\n### What's included\n- 60 loops (WAV) with stems",
+            "features": [
+                "60 loops with stems",
+                "Tempo and key labelled",
+                "Royalty-free"
+            ],
+            "tags": ["audio", "music", "lofi", "loops", "free", "royalty free"],
+            "targetAudience": "Video creators and streamers.",
+            "seoTitle": "Lo-fi Loops Vol. 1",
+            "seoDescription": "60 royalty-free lo-fi loops and stems for videos and streams. Free.",
+            "priceCents": 0,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "1.1.0",
+            "file": { "name": "lofi-loops-vol-1.zip", "size": 527 },
+            "thumbnailUrl": "/mock/covers/lofi-loops-vol-1.webp",
+            "screenshots": [],
+            "salesCount": 14,
+            "viewCount": 436,
+            "rating": 4.75,
+            "ratingCount": 4,
+            "createdAgo": 27527048940,
+            "updatedAgo": 915848940
+        },
+        {
+            "id": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "sellerId": "seed_seller_grainfield",
+            "category": "audio",
+            "slug": "tactile-ui-sounds",
+            "title": "Tactile — UI Sound Pack",
+            "tagline": "180 interface sounds recorded from real switches, paper and glass.",
+            "description": "Interface sounds recorded from physical objects, then trimmed for UI.\n\n### What's included\n- 180 WAV (48kHz/24-bit) and OGG files\n- Royalty-free licence",
+            "features": [
+                "180 sounds in WAV and OGG",
+                "Taps, toggles, notifications and errors",
+                "Royalty-free for apps and games"
+            ],
+            "tags": ["audio", "ui sounds", "sfx", "wav", "app", "game"],
+            "targetAudience": "App, game and motion designers adding sound to interfaces.",
+            "seoTitle": "Tactile — UI Sound Pack",
+            "seoDescription": "180 interface sounds recorded from real switches, paper and glass.",
+            "priceCents": 2500,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "3.0.0",
+            "file": { "name": "tactile-ui-sounds.zip", "size": 583 },
+            "thumbnailUrl": "/mock/covers/tactile-ui-sounds.webp",
+            "screenshots": [],
+            "salesCount": 15,
+            "viewCount": 491,
+            "rating": 4.14,
+            "ratingCount": 7,
+            "createdAgo": 26749448940,
+            "updatedAgo": 829448940
+        },
+        {
+            "id": "df22e76f-b514-49a2-b358-40a68c402509",
+            "sellerId": "seed_seller_grainfield",
+            "category": "presets",
+            "slug": "nordic-moody-presets",
+            "title": "Nordic Moody Presets",
+            "tagline": "Muted greens and deep shadows for landscape and travel photography.",
+            "description": "Presets built on a winter in Northern Norway.\n\n### What's included\n- XMP and DNG presets",
+            "features": ["16 presets", "Mobile and desktop versions"],
+            "tags": ["lightroom", "presets", "moody", "landscape", "travel"],
+            "targetAudience": "Landscape and travel photographers.",
+            "seoTitle": "Nordic Moody Presets",
+            "seoDescription": "Muted greens and deep shadows for landscape and travel photography.",
+            "priceCents": 1900,
+            "discountPercent": 40,
+            "status": "published",
+            "version": "2.4.0",
+            "file": { "name": "nordic-moody-presets.zip", "size": 525 },
+            "thumbnailUrl": "/mock/covers/nordic-moody-presets.webp",
+            "screenshots": [],
+            "salesCount": 13,
+            "viewCount": 599,
+            "rating": 4,
+            "ratingCount": 7,
+            "createdAgo": 25971848940,
+            "updatedAgo": 2471048940
+        },
+        {
+            "id": "ca3ed582-85cb-4a3a-8b59-92ed3acd7444",
+            "sellerId": "seed_seller_grainfield",
+            "category": "presets",
+            "slug": "kodak-portra-lightroom-presets",
+            "title": "Portra Film — Lightroom Presets",
+            "tagline": "24 presets modelled on Portra 160, 400 and 800 film stocks.",
+            "description": "Calibrated against scanned rolls of Portra 160, 400 and 800.\n\n### What's included\n- XMP and DNG presets\n- 12 .cube LUTs\n- Install guide",
+            "features": [
+                "24 Lightroom presets (desktop + mobile)",
+                "Matching .cube LUTs for video",
+                "Grain and halation variants"
+            ],
+            "tags": [
+                "lightroom",
+                "presets",
+                "film",
+                "photography",
+                "portrait",
+                "luts"
+            ],
+            "targetAudience": "Portrait and wedding photographers chasing a film look.",
+            "seoTitle": "Portra Film — Lightroom Presets",
+            "seoDescription": "24 presets modelled on Portra 160, 400 and 800 film stocks.",
+            "priceCents": 2900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "1.3.0",
+            "file": {
+                "name": "kodak-portra-lightroom-presets.zip",
+                "size": 574
+            },
+            "thumbnailUrl": "/mock/covers/kodak-portra-lightroom-presets.webp",
+            "screenshots": [],
+            "salesCount": 18,
+            "viewCount": 829,
+            "rating": 5,
+            "ratingCount": 3,
+            "createdAgo": 25194248940,
+            "updatedAgo": 2384648940
+        },
+        {
+            "id": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "sellerId": "seed_seller_paperpixel",
+            "category": "ebooks",
+            "slug": "design-systems-handbook",
+            "title": "The Practical Design Systems Handbook",
+            "tagline": "How small teams build, document and govern a design system that gets used.",
+            "description": "A practical guide to design systems for teams of 2 to 20.\n\n### What's included\n- PDF and EPUB\n- Notion templates for RFCs and changelogs",
+            "features": [
+                "180 pages, PDF and EPUB",
+                "Governance and contribution templates",
+                "Token naming cheat sheet"
+            ],
+            "tags": ["ebook", "design system", "figma", "documentation", "pdf"],
+            "targetAudience": "Designers and front-end engineers starting or rescuing a design system.",
+            "seoTitle": "The Practical Design Systems Handbook",
+            "seoDescription": "How small teams build, document and govern a design system that gets used.",
+            "priceCents": 3400,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "3.2.0",
+            "file": { "name": "design-systems-handbook.zip", "size": 580 },
+            "thumbnailUrl": "/mock/covers/design-systems-handbook.webp",
+            "screenshots": [],
+            "salesCount": 12,
+            "viewCount": 493,
+            "rating": 5,
+            "ratingCount": 7,
+            "createdAgo": 24416648940,
+            "updatedAgo": 2298248940
+        },
+        {
+            "id": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "sellerId": "seed_seller_paperpixel",
+            "category": "notion-templates",
+            "slug": "student-planner-notion",
+            "title": "Semester Planner for Notion",
+            "tagline": "Courses, assignments, exams and grade tracking in one aesthetic dashboard.",
+            "description": "Keep every course, deadline and grade in one place.\n\n### What's included\n- Notion template link\n- Setup guide",
+            "features": [
+                "Assignment tracker with due-date views",
+                "Grade calculator",
+                "Exam revision planner"
+            ],
+            "tags": ["notion", "student", "planner", "study", "productivity"],
+            "targetAudience": "University and high-school students.",
+            "seoTitle": "Semester Planner for Notion",
+            "seoDescription": "Courses, assignments, exams and grade tracking in one aesthetic dashboard.",
+            "priceCents": 900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "2.1.0",
+            "file": { "name": "student-planner-notion.zip", "size": 547 },
+            "thumbnailUrl": "/mock/covers/student-planner-notion.webp",
+            "screenshots": [],
+            "salesCount": 16,
+            "viewCount": 321,
+            "rating": 4.5,
+            "ratingCount": 6,
+            "createdAgo": 23639048940,
+            "updatedAgo": 2211848940
+        },
+        {
+            "id": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "sellerId": "seed_seller_paperpixel",
+            "category": "notion-templates",
+            "slug": "content-calendar-notion",
+            "title": "Content Calendar for Notion",
+            "tagline": "Plan, write and publish across blog, newsletter and social from one board.",
+            "description": "A free Notion board for planning content across channels.\n\n### What's included\n- Notion template link",
+            "features": [
+                "Kanban and calendar views",
+                "Repurposing checklist",
+                "Free forever"
+            ],
+            "tags": [
+                "notion",
+                "content calendar",
+                "free",
+                "marketing",
+                "social media"
+            ],
+            "targetAudience": "Creators and small marketing teams.",
+            "seoTitle": "Content Calendar for Notion",
+            "seoDescription": "Plan, write and publish across blog, newsletter and social from one board.",
+            "priceCents": 0,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "1.0.0",
+            "file": { "name": "content-calendar-notion.zip", "size": 539 },
+            "thumbnailUrl": "/mock/covers/content-calendar-notion.webp",
+            "screenshots": [],
+            "salesCount": 21,
+            "viewCount": 552,
+            "rating": 4,
+            "ratingCount": 8,
+            "createdAgo": 22861448940,
+            "updatedAgo": 2125448940
+        },
+        {
+            "id": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "sellerId": "seed_seller_paperpixel",
+            "category": "notion-templates",
+            "slug": "founder-os-notion",
+            "title": "Founder OS for Notion",
+            "tagline": "One Notion workspace for goals, CRM, hiring, investors and weekly reviews.",
+            "description": "Founder OS connects goals, people and pipelines in one Notion workspace so your weekly review takes 20 minutes.\n\n### What's included\n- Notion template (duplicate link)\n- 25-minute video walkthrough",
+            "features": [
+                "OKR and weekly review system",
+                "Lightweight CRM and investor pipeline",
+                "Hiring tracker with scorecards",
+                "Video walkthrough"
+            ],
+            "tags": [
+                "notion",
+                "productivity",
+                "startup",
+                "crm",
+                "okr",
+                "template"
+            ],
+            "targetAudience": "Early-stage founders running the company from Notion.",
+            "seoTitle": "Founder OS for Notion",
+            "seoDescription": "One Notion workspace for goals, CRM, hiring, investors and weekly reviews.",
+            "priceCents": 3900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "3.4.0",
+            "file": { "name": "founder-os-notion.zip", "size": 583 },
+            "thumbnailUrl": "/mock/covers/founder-os-notion.webp",
+            "screenshots": [],
+            "salesCount": 25,
+            "viewCount": 1084,
+            "rating": 4.5,
+            "ratingCount": 12,
+            "createdAgo": 22083848940,
+            "updatedAgo": 2039048940
+        },
+        {
+            "id": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "sellerId": "seed_seller_paperpixel",
+            "category": "ebooks",
+            "slug": "freelance-design-contracts-kit",
+            "title": "Freelance Design Contracts Kit",
+            "tagline": "Lawyer-reviewed contract, proposal and invoice templates for freelancers.",
+            "description": "Everything you need to sign and get paid on a freelance project.\n\n### What's included\n- 6 legal templates (DOCX + Google Docs)\n- Proposal and invoice templates\n- Short guide to scope and change requests",
+            "features": [
+                "Contract, SOW and NDA templates",
+                "Proposal template in Google Docs and Notion",
+                "Invoice and late-payment email templates"
+            ],
+            "tags": [
+                "freelance",
+                "contracts",
+                "templates",
+                "design business",
+                "proposal",
+                "invoice"
+            ],
+            "targetAudience": "Freelance designers and developers who want to stop rewriting contracts.",
+            "seoTitle": "Freelance Design Contracts Kit",
+            "seoDescription": "Lawyer-reviewed contract, proposal and invoice templates for freelancers.",
+            "priceCents": 2400,
+            "discountPercent": 25,
+            "status": "published",
+            "version": "2.3.0",
+            "file": {
+                "name": "freelance-design-contracts-kit.zip",
+                "size": 595
+            },
+            "thumbnailUrl": "/mock/covers/freelance-design-contracts-kit.webp",
+            "screenshots": [],
+            "salesCount": 14,
+            "viewCount": 519,
+            "rating": 4.71,
+            "ratingCount": 7,
+            "createdAgo": 21306248940,
+            "updatedAgo": 1952648940
+        },
+        {
+            "id": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "sellerId": "seed_seller_paperpixel",
+            "category": "ebooks",
+            "slug": "pricing-your-saas-playbook",
+            "title": "Pricing Your SaaS — The Playbook",
+            "tagline": "A 140-page guide to packaging, pricing pages and raising prices without churn.",
+            "description": "Most SaaS products are underpriced. This playbook walks through choosing a value metric, designing tiers and raising prices with existing customers.\n\n### What's included\n- PDF and EPUB\n- Pricing model spreadsheet\n- 28 annotated pricing page teardowns",
+            "features": [
+                "140 pages, PDF and EPUB",
+                "28 pricing page teardowns",
+                "Spreadsheet models for tiers and usage pricing",
+                "Email scripts for price increases"
+            ],
+            "tags": ["ebook", "saas", "pricing", "startup", "pdf", "growth"],
+            "targetAudience": "SaaS founders and product managers setting or changing prices.",
+            "seoTitle": "Pricing Your SaaS — The Playbook",
+            "seoDescription": "A 140-page guide to packaging, pricing pages and raising prices without churn.",
+            "priceCents": 2900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "1.2.0",
+            "file": { "name": "pricing-your-saas-playbook.zip", "size": 643 },
+            "thumbnailUrl": "/mock/covers/pricing-your-saas-playbook.webp",
+            "screenshots": [],
+            "salesCount": 17,
+            "viewCount": 698,
+            "rating": 4.5,
+            "ratingCount": 6,
+            "createdAgo": 20528648940,
+            "updatedAgo": 1866248940
+        },
+        {
+            "id": "ba40111b-c59e-4218-9724-347aa11a3df2",
+            "sellerId": "seed_seller_glyphworks",
+            "category": "fonts",
+            "slug": "margin-serif-free-font",
+            "title": "Margin Serif",
+            "tagline": "A free text serif for long-form reading, with regular and italic.",
+            "description": "Margin is a calm text serif for long reading on screens, released free under the OFL.\n\n### What's included\n- OTF and WOFF2\n- Specimen PDF",
+            "features": [
+                "Regular and italic",
+                "Open Font Licence",
+                "WOFF2 included"
+            ],
+            "tags": ["font", "serif", "free", "editorial", "web font"],
+            "targetAudience": "Writers, bloggers and editorial designers.",
+            "seoTitle": "Margin Serif",
+            "seoDescription": "A free text serif for long-form reading, with regular and italic.",
+            "priceCents": 0,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "3.1.0",
+            "file": { "name": "margin-serif-free-font.zip", "size": 538 },
+            "thumbnailUrl": "/mock/covers/margin-serif-free-font.webp",
+            "screenshots": [],
+            "salesCount": 15,
+            "viewCount": 603,
+            "rating": 4.4,
+            "ratingCount": 5,
+            "createdAgo": 19751048940,
+            "updatedAgo": 1779848940
+        },
+        {
+            "id": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "sellerId": "seed_seller_glyphworks",
+            "category": "fonts",
+            "slug": "halden-grotesk-font-family",
+            "title": "Halden Grotesk — Font Family",
+            "tagline": "A sharp neo-grotesk in 9 weights with variable font and web licence.",
+            "description": "Halden is a neo-grotesk with ink traps that open up at small sizes and tighten into sharp shapes at display sizes.\n\n### What's included\n- OTF, TTF, WOFF2\n- Variable font\n- Licence for desktop and up to 500k monthly web views",
+            "features": [
+                "9 weights plus italics",
+                "Variable font (wght)",
+                "Latin Extended, 600+ glyphs",
+                "Desktop and web licence"
+            ],
+            "tags": [
+                "font",
+                "typeface",
+                "sans serif",
+                "grotesk",
+                "variable font",
+                "web font"
+            ],
+            "targetAudience": "Brand and product designers looking for a characterful UI and display sans.",
+            "seoTitle": "Halden Grotesk — Font Family",
+            "seoDescription": "A sharp neo-grotesk in 9 weights with variable font and web licence.",
+            "priceCents": 5900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "2.0.0",
+            "file": { "name": "halden-grotesk-font-family.zip", "size": 619 },
+            "thumbnailUrl": "/mock/covers/halden-grotesk-font-family.webp",
+            "screenshots": [],
+            "salesCount": 14,
+            "viewCount": 253,
+            "rating": 4.71,
+            "ratingCount": 7,
+            "createdAgo": 18973448940,
+            "updatedAgo": 1693448940
+        },
+        {
+            "id": "dff4eefb-9f05-4e89-bdee-791e6236e250",
+            "sellerId": "seed_seller_glyphworks",
+            "category": "illustrations",
+            "slug": "people-of-work-illustrations",
+            "title": "People of Work — Character Kit",
+            "tagline": "A mix-and-match character builder with 900 parts and 40 poses.",
+            "description": "Build inclusive characters in minutes: swap heads, outfits, poses and props.\n\n### What's included\n- Figma builder file\n- 200 pre-built SVG characters",
+            "features": [
+                "900 interchangeable parts",
+                "40 poses and 120 props",
+                "Figma and SVG"
+            ],
+            "tags": [
+                "illustrations",
+                "characters",
+                "vector",
+                "figma",
+                "svg",
+                "diversity"
+            ],
+            "targetAudience": "Designers illustrating SaaS marketing pages and docs.",
+            "seoTitle": "People of Work — Character Kit",
+            "seoDescription": "A mix-and-match character builder with 900 parts and 40 poses.",
+            "priceCents": 3500,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "1.4.0",
+            "file": { "name": "people-of-work-illustrations.zip", "size": 581 },
+            "thumbnailUrl": "/mock/covers/people-of-work-illustrations.webp",
+            "screenshots": [],
+            "salesCount": 7,
+            "viewCount": 197,
+            "rating": 3.2,
+            "ratingCount": 5,
+            "createdAgo": 18195848940,
+            "updatedAgo": 1607048940
+        },
+        {
+            "id": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "sellerId": "seed_seller_glyphworks",
+            "category": "illustrations",
+            "slug": "softscape-3d-illustrations",
+            "title": "Softscape 3D Illustrations",
+            "tagline": "60 soft-clay 3D scenes for onboarding, empty states and landing pages.",
+            "description": "Softscape is a set of soft-clay 3D scenes designed for the moments products usually leave blank.\n\n### What's included\n- 60 scenes, 4K transparent PNG and WebP\n- Blender source with materials and lighting",
+            "features": [
+                "60 scenes rendered at 4K",
+                "Blender source files",
+                "Transparent PNG and WebP",
+                "Colour variants for light UIs"
+            ],
+            "tags": [
+                "3d",
+                "illustrations",
+                "blender",
+                "empty states",
+                "onboarding",
+                "png"
+            ],
+            "targetAudience": "Product and marketing designers who want friendly 3D art without a 3D artist.",
+            "seoTitle": "Softscape 3D Illustrations",
+            "seoDescription": "60 soft-clay 3D scenes for onboarding, empty states and landing pages.",
+            "priceCents": 4900,
+            "discountPercent": 15,
+            "status": "published",
+            "version": "3.3.0",
+            "file": { "name": "softscape-3d-illustrations.zip", "size": 596 },
+            "thumbnailUrl": "/mock/covers/softscape-3d-illustrations.webp",
+            "screenshots": [],
+            "salesCount": 17,
+            "viewCount": 326,
+            "rating": 4.4,
+            "ratingCount": 10,
+            "createdAgo": 17418248940,
+            "updatedAgo": 1520648940
+        },
+        {
+            "id": "df3f4401-870f-4ddb-9136-6c500b82f1d5",
+            "sellerId": "seed_seller_glyphworks",
+            "category": "icons",
+            "slug": "duo-tone-finance-icons",
+            "title": "Duotone Finance Icons",
+            "tagline": "320 two-colour icons for fintech, crypto and accounting products.",
+            "description": "Two-colour icons where the accent layer is a CSS variable, so they adapt to any brand.\n\n### What's included\n- 320 icons in SVG\n- Figma library",
+            "features": [
+                "320 duotone icons",
+                "Recolourable via CSS variables",
+                "SVG and Figma"
+            ],
+            "tags": ["icons", "duotone", "finance", "fintech", "crypto", "svg"],
+            "targetAudience": "Designers building finance dashboards and banking apps.",
+            "seoTitle": "Duotone Finance Icons",
+            "seoDescription": "320 two-colour icons for fintech, crypto and accounting products.",
+            "priceCents": 1900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "2.2.0",
+            "file": { "name": "duo-tone-finance-icons.zip", "size": 555 },
+            "thumbnailUrl": "/mock/covers/duo-tone-finance-icons.webp",
+            "screenshots": [],
+            "salesCount": 7,
+            "viewCount": 316,
+            "rating": 3.75,
+            "ratingCount": 4,
+            "createdAgo": 16640648940,
+            "updatedAgo": 1434248940
+        },
+        {
+            "id": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "sellerId": "seed_seller_glyphworks",
+            "category": "icons",
+            "slug": "lumen-icons-2400",
+            "title": "Lumen Icons — 2,400 Line Icons",
+            "tagline": "A consistent line icon family in 3 weights, drawn on a 24px grid.",
+            "description": "Lumen is a line icon family drawn on a 24px grid with 1.5px strokes, tuned at small sizes.\n\n### What's included\n- 2,400 icons × 3 weights\n- SVG, PNG (1×, 2×), WOFF2 icon font\n- React package with tree-shaking\n- Figma component library",
+            "features": [
+                "2,400 icons across 28 categories",
+                "Light, regular and bold weights",
+                "SVG, PNG, icon font and React components",
+                "Figma library with variants"
+            ],
+            "tags": [
+                "icons",
+                "svg",
+                "line icons",
+                "figma",
+                "react",
+                "icon font"
+            ],
+            "targetAudience": "Product designers and developers who need one icon family that covers everything.",
+            "seoTitle": "Lumen Icons — 2,400 Line Icons",
+            "seoDescription": "A consistent line icon family in 3 weights, drawn on a 24px grid.",
+            "priceCents": 3900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "1.1.0",
+            "file": { "name": "lumen-icons-2400.zip", "size": 639 },
+            "thumbnailUrl": "/mock/covers/lumen-icons-2400.webp",
+            "screenshots": [],
+            "salesCount": 15,
+            "viewCount": 496,
+            "rating": 5,
+            "ratingCount": 6,
+            "createdAgo": 15863048940,
+            "updatedAgo": 1347848940
+        },
+        {
+            "id": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "sellerId": "user_alex",
+            "category": "code-templates",
+            "slug": "relay-react-native-starter",
+            "title": "Relay — React Native Expo Starter",
+            "tagline": "Expo Router app with auth, push notifications, in-app purchases and theming.",
+            "description": "Relay is a React Native starter that ships with the pieces app-store apps actually need.\n\n### What's included\n- Expo SDK project with TypeScript\n- Auth, onboarding, paywall and settings screens\n- CI workflow for EAS builds",
+            "features": [
+                "Expo Router with typed routes",
+                "Email and OAuth sign-in screens",
+                "Push notifications and deep links",
+                "RevenueCat in-app purchases",
+                "Light and dark themes"
+            ],
+            "tags": [
+                "react native",
+                "expo",
+                "mobile",
+                "starter",
+                "typescript",
+                "ios",
+                "android"
+            ],
+            "targetAudience": "Mobile developers starting a cross-platform app.",
+            "seoTitle": "Relay — React Native Expo Starter",
+            "seoDescription": "Expo Router app with auth, push notifications, in-app purchases and theming.",
+            "priceCents": 6900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "3.0.0",
+            "file": { "name": "relay-react-native-starter.zip", "size": 638 },
+            "thumbnailUrl": "/mock/covers/relay-react-native-starter.webp",
+            "screenshots": [],
+            "salesCount": 9,
+            "viewCount": 389,
+            "rating": 4.6,
+            "ratingCount": 5,
+            "createdAgo": 15085448940,
+            "updatedAgo": 1261448940
+        },
+        {
+            "id": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "sellerId": "user_alex",
+            "category": "code-templates",
+            "slug": "folio-astro-portfolio-template",
+            "title": "Folio — Astro Portfolio Template",
+            "tagline": "A fast, content-first portfolio for designers and developers. Free.",
+            "description": "Folio is our free Astro portfolio template. Write case studies in Markdown, push, and it deploys.\n\n### What's included\n- Astro project with typed content collections\n- Three case-study layouts\n- Automatic Open Graph images",
+            "features": [
+                "Astro with content collections",
+                "Perfect Lighthouse scores out of the box",
+                "Case-study layouts with MDX",
+                "RSS, sitemap and Open Graph images"
+            ],
+            "tags": [
+                "astro",
+                "portfolio",
+                "template",
+                "free",
+                "markdown",
+                "tailwind"
+            ],
+            "targetAudience": "Designers and developers who want a portfolio online this weekend.",
+            "seoTitle": "Folio — Astro Portfolio Template",
+            "seoDescription": "A fast, content-first portfolio for designers and developers. Free.",
+            "priceCents": 0,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "2.4.0",
+            "file": {
+                "name": "folio-astro-portfolio-template.zip",
+                "size": 624
+            },
+            "thumbnailUrl": "/mock/covers/folio-astro-portfolio-template.webp",
+            "screenshots": [],
+            "salesCount": 29,
+            "viewCount": 990,
+            "rating": 4.64,
+            "ratingCount": 11,
+            "createdAgo": 14307848940,
+            "updatedAgo": 1175048940
+        },
+        {
+            "id": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "sellerId": "user_alex",
+            "category": "ui-kits",
+            "slug": "pocket-mobile-banking-ui-kit",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "tagline": "86 iOS and Android screens for fintech apps, from onboarding to card controls.",
+            "description": "Pocket covers the flows every money app needs, designed with the edge cases left in: failed transfers, frozen cards, pending KYC.\n\n### What's included\n- 86 screens in light and dark\n- Component library with 200+ elements\n- Clickable prototype",
+            "features": [
+                "86 screens for iOS and Android",
+                "Onboarding, KYC, cards, transfers and insights flows",
+                "Built with auto-layout and variants",
+                "Prototype links included"
+            ],
+            "tags": [
+                "figma",
+                "mobile",
+                "fintech",
+                "banking",
+                "ios",
+                "android",
+                "ui kit"
+            ],
+            "targetAudience": "Designers working on fintech, wallet and banking apps.",
+            "seoTitle": "Pocket — Mobile Banking UI Kit",
+            "seoDescription": "86 iOS and Android screens for fintech apps, from onboarding to card controls.",
+            "priceCents": 5900,
+            "discountPercent": 30,
+            "status": "published",
+            "version": "1.3.0",
+            "file": { "name": "pocket-mobile-banking-ui-kit.zip", "size": 666 },
+            "thumbnailUrl": "/mock/covers/pocket-mobile-banking-ui-kit.webp",
+            "screenshots": [],
+            "salesCount": 9,
+            "viewCount": 334,
+            "rating": 4.5,
+            "ratingCount": 6,
+            "createdAgo": 13530248940,
+            "updatedAgo": 1088648940
+        },
+        {
+            "id": "60d24848-7804-493b-a599-611d400a07ae",
+            "sellerId": "user_alex",
+            "category": "ui-kits",
+            "slug": "meridian-design-system",
+            "title": "Meridian Design System for Figma",
+            "tagline": "Variables-first Figma system with 600+ components, light and dark modes.",
+            "description": "Meridian is a Figma design system built entirely on variables, so rebranding is a matter of changing a few tokens.\n\n### What's included\n- 600+ components with variants and auto-layout\n- 120 ready-made screens for web and mobile\n- Token export compatible with Tailwind and CSS custom properties\n- Documentation pages inside the file",
+            "features": [
+                "600+ components built on Figma variables",
+                "Light, dark and high-contrast modes",
+                "Responsive web and mobile templates",
+                "Token export for Tailwind and CSS",
+                "Monthly updates"
+            ],
+            "tags": [
+                "figma",
+                "design system",
+                "components",
+                "variables",
+                "ui kit",
+                "dark mode"
+            ],
+            "targetAudience": "Product designers and design-system teams who want a solid foundation they can rebrand in an afternoon.",
+            "seoTitle": "Meridian Design System for Figma",
+            "seoDescription": "Variables-first Figma system with 600+ components, light and dark modes.",
+            "priceCents": 9900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "3.2.0",
+            "file": { "name": "meridian-design-system.zip", "size": 669 },
+            "thumbnailUrl": "/mock/covers/meridian-design-system.webp",
+            "screenshots": [],
+            "salesCount": 12,
+            "viewCount": 290,
+            "rating": 3.67,
+            "ratingCount": 6,
+            "createdAgo": 12752648940,
+            "updatedAgo": 1002248940
+        },
+        {
+            "id": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "sellerId": "user_alex",
+            "category": "code-templates",
+            "slug": "launchpad-nextjs-saas-starter",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "tagline": "Auth, Stripe subscriptions, Postgres and a marketing site, wired together and tested.",
+            "description": "Launchpad gives you the first three weeks of a SaaS build on day one.\n\nAuthentication, subscription billing, a Postgres schema with migrations, transactional email and a marketing site are already connected and covered by end-to-end tests.\n\n### What's included\n- Next.js App Router project with TypeScript\n- Stripe Checkout, customer portal and webhook handlers\n- Drizzle ORM schema for users, teams and subscriptions\n- MDX blog and docs\n- Deployment guide for Vercel and Fly.io",
+            "features": [
+                "Next.js App Router with server actions",
+                "Stripe subscriptions with webhook handling",
+                "Postgres + Drizzle schema and migrations",
+                "Marketing site, blog and docs pages",
+                "Playwright end-to-end tests"
+            ],
+            "tags": [
+                "nextjs",
+                "saas",
+                "stripe",
+                "postgres",
+                "boilerplate",
+                "typescript",
+                "starter"
+            ],
+            "targetAudience": "Indie hackers and small teams launching a subscription product who want the boring parts done right.",
+            "seoTitle": "Launchpad — Next.js SaaS Starter",
+            "seoDescription": "Auth, Stripe subscriptions, Postgres and a marketing site, wired together and tested.",
+            "priceCents": 14900,
+            "discountPercent": 0,
+            "status": "published",
+            "version": "2.1.0",
+            "file": {
+                "name": "launchpad-nextjs-saas-starter.zip",
+                "size": 763
+            },
+            "thumbnailUrl": "/mock/covers/launchpad-nextjs-saas-starter.webp",
+            "screenshots": [],
+            "salesCount": 20,
+            "viewCount": 723,
+            "rating": 4.45,
+            "ratingCount": 11,
+            "createdAgo": 11975048940,
+            "updatedAgo": 915848940
+        },
+        {
+            "id": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "sellerId": "user_alex",
+            "category": "code-templates",
+            "slug": "orbit-saas-admin-dashboard",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "tagline": "A React + Tailwind admin with auth screens, billing, team management and 40+ pages.",
+            "description": "Orbit is the admin dashboard we kept rebuilding for client SaaS projects, finally packaged properly.\n\nIt ships as a Vite + React 19 app with TypeScript, Tailwind CSS v4 and a small set of headless primitives, so it reads like code you would have written yourself. Pages are wired with mock data and typed API hooks; swap in your backend and go.\n\n### What's included\n- 42 pages: overview, analytics, customers, billing, invoices, team, settings, auth\n- 70+ components with keyboard and screen-reader support\n- Light and dark themes driven by CSS variables\n- Figma file with matching components and auto-layout",
+            "features": [
+                "42 responsive pages incl. billing, teams and settings",
+                "React 19, TypeScript and Tailwind CSS v4",
+                "Recharts analytics widgets with dark mode",
+                "Role-based navigation and protected routes",
+                "Figma source file included"
+            ],
+            "tags": [
+                "react",
+                "admin dashboard",
+                "saas",
+                "tailwind",
+                "typescript",
+                "vite",
+                "charts"
+            ],
+            "targetAudience": "SaaS founders and front-end developers who need a production-grade admin without building the shell from scratch.",
+            "seoTitle": "Orbit — SaaS Admin Dashboard",
+            "seoDescription": "A React + Tailwind admin with auth screens, billing, team management and 40+ pages.",
+            "priceCents": 7900,
+            "discountPercent": 20,
+            "status": "published",
+            "version": "1.0.0",
+            "file": { "name": "orbit-saas-admin-dashboard.zip", "size": 852 },
+            "thumbnailUrl": "/mock/covers/orbit-saas-admin-dashboard.webp",
+            "screenshots": [],
+            "salesCount": 22,
+            "viewCount": 751,
+            "rating": 4.55,
+            "ratingCount": 11,
+            "createdAgo": 11197448940,
+            "updatedAgo": 829448940
+        }
+    ],
+    "reviews": [
+        {
+            "id": "2119d132-abb5-4a0f-a381-a7035199b2d9",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 829475581
+        },
+        {
+            "id": "55c08aec-e519-4bac-bc56-77c375d2965c",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Leila Farah",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 829723470
+        },
+        {
+            "id": "ad62636c-066a-48e4-b728-88a3ca4f4cca",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Isabel Costa",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 829795004
+        },
+        {
+            "id": "ed5b0633-d65d-48f8-b677-94af2a3ecc46",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Mei Lin",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 829990231
+        },
+        {
+            "id": "f85a5567-93ac-4a2c-b771-4e2570307036",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Isabel Costa",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 830081089
+        },
+        {
+            "id": "8ffcb9a8-09df-4cb6-b2f0-4fe9a2577459",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Freya Lindqvist",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 830665935
+        },
+        {
+            "id": "6798d8a2-590b-4c24-83d9-c69fe0707a3d",
+            "productId": "ba40111b-c59e-4218-9724-347aa11a3df2",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Tom Okafor",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 830706998
+        },
+        {
+            "id": "a010411f-6d31-46b8-988c-3c71540124b5",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 831002251
+        },
+        {
+            "id": "eb0791f4-bdd8-4e24-8a2a-8fdd77f90029",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 831051037
+        },
+        {
+            "id": "39a1b69d-14f3-4963-82c1-13684dfcd1aa",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 831457200
+        },
+        {
+            "id": "2d8cc92a-7d3d-4af1-a3df-1167916e173d",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 831746998
+        },
+        {
+            "id": "9a55c423-4c2b-4a99-b6f7-ccdf4200cc67",
+            "productId": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 831845543
+        },
+        {
+            "id": "d8c06aba-8002-4f0a-a07d-8a799a1f316d",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Noah Kim",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 831948219
+        },
+        {
+            "id": "decfbbfa-b6a6-4d7a-b5f7-1a80d8506e8a",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 832120470
+        },
+        {
+            "id": "8d7ee0d2-c799-4fec-926a-19262c741e04",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 832197712
+        },
+        {
+            "id": "c249059e-88b0-4ebc-b235-64c2f40ad429",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Sofia Rossi",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 832542047
+        },
+        {
+            "id": "2a52c835-ab5a-411a-9a86-c9d245f07de5",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Isabel Costa",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 832606672
+        },
+        {
+            "id": "73ce8064-1bed-484c-9634-61e23c174bc0",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Tom Okafor",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 832851726
+        },
+        {
+            "id": "8c3d6701-6a40-4d69-9202-7a736ed65e80",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Chloe Martin",
+            "avatarUrl": "/mock/avatars/ivy-walsh.webp",
+            "createdAgo": 832899439
+        },
+        {
+            "id": "27681500-5af5-4f9a-a13c-c8f174c86aaf",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 832944777
+        },
+        {
+            "id": "90ef3ef7-ed05-455a-89b2-2898ee872035",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Hana Sato",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 833025421
+        },
+        {
+            "id": "3628569b-1f88-47ec-b5e3-1b80c4a8f82d",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Ana Silva",
+            "avatarUrl": "/mock/avatars/priya-nair.webp",
+            "createdAgo": 860119585
+        },
+        {
+            "id": "e0834071-43d7-4fbe-b4ae-bbf5f247cbcb",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Maya Chen",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 1018780436
+        },
+        {
+            "id": "4d039162-f309-46f6-8bfb-a4c08b527ffe",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Mei Lin",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 1069382741
+        },
+        {
+            "id": "cf8bbbaa-9f49-4f4b-85ae-c7a0d4a6290f",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Max Schmidt",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 1090443499
+        },
+        {
+            "id": "05ee05da-bbd3-49e5-bf05-4927ddc1f64e",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Ravi Patel",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 1127577282
+        },
+        {
+            "id": "61e05840-a2d4-4743-8dba-d111c86c7344",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Hana Sato",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 1179065611
+        },
+        {
+            "id": "c1173976-dec3-488d-a8c7-886a7053b2c2",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Ravi Patel",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 1208811615
+        },
+        {
+            "id": "9d7f02db-09fa-4558-9e4b-7e411ce9ccda",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 4,
+            "title": "Great value",
+            "body": "Does what it says. I would love a few more examples, but I am happy with it.",
+            "author": "Mei Lin",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 1224915013
+        },
+        {
+            "id": "443b036a-a54b-4b7d-b51c-6f6d6f4f6fc3",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Tom Okafor",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 1239953741
+        },
+        {
+            "id": "9d4c7871-1353-4459-b4ed-ccb13d267cb2",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 1356448601
+        },
+        {
+            "id": "946bb2a9-22d3-47c3-85f1-71badf41235c",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Max Schmidt",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 1451296470
+        },
+        {
+            "id": "519444bb-6924-47dc-8169-cbf0b6fabc0b",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 1483598975
+        },
+        {
+            "id": "4aa0d689-f59a-4970-b8d4-bd5bdf840c17",
+            "productId": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 1513679691
+        },
+        {
+            "id": "c2a76477-21a2-4210-9b94-fb8d3f40c810",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Max Schmidt",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 1553689925
+        },
+        {
+            "id": "d250c9b5-3962-4546-bef6-8540668ccbbf",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Ravi Patel",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 1599200254
+        },
+        {
+            "id": "15148fd1-0330-4ff6-98a2-1b41a8cf83e7",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 1653235117
+        },
+        {
+            "id": "b52eadce-aa82-44a5-80ab-47c72e56af69",
+            "productId": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Freya Lindqvist",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 1666611159
+        },
+        {
+            "id": "265d4d9a-5183-42f2-b5bf-9b3c06ac0fa7",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Maya Chen",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 1669583444
+        },
+        {
+            "id": "e1d51ee9-0617-4b0e-bd95-be865b29e915",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Diego Morales",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 1706266854
+        },
+        {
+            "id": "f8fd8a18-f036-4591-8a92-ec9653225605",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 4,
+            "title": "Great value",
+            "body": "Does what it says. I would love a few more examples, but I am happy with it.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 1709308213
+        },
+        {
+            "id": "fc40134d-44ae-4e4e-9ff8-6c9cde8d1575",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Tom Okafor",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 1746651312
+        },
+        {
+            "id": "ffc04b1f-4c74-4079-bc79-eda0a42f0489",
+            "productId": "ca3ed582-85cb-4a3a-8b59-92ed3acd7444",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Max Schmidt",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 1842164024
+        },
+        {
+            "id": "79a756ca-bf93-4312-9005-f7de839399e9",
+            "productId": "dff4eefb-9f05-4e89-bdee-791e6236e250",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Ethan Brooks",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 1901115156
+        },
+        {
+            "id": "42e4924b-b44c-4aa6-9d7d-1642c3e7614a",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Leila Farah",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 1979885916
+        },
+        {
+            "id": "0b9b6a90-3dff-4213-9268-3cc1bfe9a9e5",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 1989670162
+        },
+        {
+            "id": "690d7b86-971e-417e-8220-4a99e8226127",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Ethan Brooks",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 2023953109
+        },
+        {
+            "id": "841faa80-dca8-4447-9385-e7363b89ea46",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Mei Lin",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 2053830361
+        },
+        {
+            "id": "88eefa0e-7879-4289-90c3-91650916a98c",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Priya Nair",
+            "avatarUrl": "/mock/avatars/priya-nair.webp",
+            "createdAgo": 2088005412
+        },
+        {
+            "id": "c01fcb56-ab3c-4881-b0ca-610e74bc3931",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 2108870452
+        },
+        {
+            "id": "19db6559-dd65-41f8-ac5b-5c61f1060d7d",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Zara Ahmed",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 2112458860
+        },
+        {
+            "id": "700045a8-8d5c-49a4-a2d8-de05a92267de",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Ethan Brooks",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 2134659869
+        },
+        {
+            "id": "7e6a477c-b8fa-4520-b30d-fc0c478e73bf",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Leila Farah",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 2165188822
+        },
+        {
+            "id": "05fdeaf8-e369-4f50-bba1-35dfe2b975bf",
+            "productId": "6abad3b1-b7e5-4ae0-82b0-bad3f40df1e1",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Nina Novak",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 2207760571
+        },
+        {
+            "id": "464692a7-b0eb-4e2d-9a1e-f1ca2899d18a",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Ana Silva",
+            "avatarUrl": "/mock/avatars/priya-nair.webp",
+            "createdAgo": 2227320120
+        },
+        {
+            "id": "e79eee0a-7673-4036-923e-d157762c4527",
+            "productId": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Ivy Walsh",
+            "avatarUrl": "/mock/avatars/ivy-walsh.webp",
+            "createdAgo": 2245273947
+        },
+        {
+            "id": "c4135439-bd18-48a2-82c3-772f8d522d6b",
+            "productId": "29186360-5848-4725-b6b1-1969db8eecb8",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 2302143041
+        },
+        {
+            "id": "c3605c6a-5d67-4a67-83a2-6755800083bc",
+            "productId": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Tom Okafor",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 2313696728
+        },
+        {
+            "id": "28cc7c69-e2b1-4dcd-a469-dfed3b9638d6",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Maya Chen",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 2676306553
+        },
+        {
+            "id": "21a91bfc-2ed9-44a8-b41e-3ea9ab768977",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 2711393204
+        },
+        {
+            "id": "01a50466-0cc2-4d14-9e85-eda6b89a2b2a",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 4,
+            "title": "Great value",
+            "body": "Does what it says. I would love a few more examples, but I am happy with it.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 2779779539
+        },
+        {
+            "id": "86cd4825-a1ed-43f9-b6da-c3da0fe3f848",
+            "productId": "df3f4401-870f-4ddb-9136-6c500b82f1d5",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Diego Morales",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 2841995011
+        },
+        {
+            "id": "a6f740a1-7f1b-428a-baa6-29094355a5d9",
+            "productId": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Chloe Martin",
+            "avatarUrl": "/mock/avatars/ivy-walsh.webp",
+            "createdAgo": 2915166168
+        },
+        {
+            "id": "fba869c0-0772-4492-aa62-a064579564f9",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Ivy Walsh",
+            "avatarUrl": "/mock/avatars/ivy-walsh.webp",
+            "createdAgo": 2918255770
+        },
+        {
+            "id": "f4585ecf-83d7-4a77-b09b-2b85adcb270c",
+            "productId": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 2918851792
+        },
+        {
+            "id": "09e3acc2-9a7b-4e16-86a0-f9ee84d49740",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Jonas Weber",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 2923216909
+        },
+        {
+            "id": "e98aa581-5a42-4453-a34e-d7d148d3ec38",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 2925527185
+        },
+        {
+            "id": "5e6720f8-13a3-4e18-90d4-801cd04ae88e",
+            "productId": "6abad3b1-b7e5-4ae0-82b0-bad3f40df1e1",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Noah Kim",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 2969364150
+        },
+        {
+            "id": "fac36bae-3873-44c9-b7cf-178dfc305601",
+            "productId": "ca3ed582-85cb-4a3a-8b59-92ed3acd7444",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Jonas Weber",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 2974582874
+        },
+        {
+            "id": "5ace6ea9-609c-4ff0-8ac1-1345245d860e",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Max Schmidt",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 2974753476
+        },
+        {
+            "id": "bebac176-3784-4425-a7e1-5add04b2d41e",
+            "productId": "dff4eefb-9f05-4e89-bdee-791e6236e250",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 3034884762
+        },
+        {
+            "id": "ad766abe-f9cf-400f-99c9-fb02d14c67f7",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 3070796075
+        },
+        {
+            "id": "8beba961-1ce2-4189-96b4-ed36217de570",
+            "productId": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Noah Kim",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 3071391166
+        },
+        {
+            "id": "cd73f78e-a3c2-47cd-8c31-15ca858fa46f",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 3071729129
+        },
+        {
+            "id": "501864ed-4de1-4614-95f6-f4c11b80471f",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Maya Chen",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 3149543013
+        },
+        {
+            "id": "e9df6f1c-65c0-44bd-a8ba-fe2f16e840fb",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Omar Haddad",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 3247469101
+        },
+        {
+            "id": "841f1cd6-8f83-4139-8f4b-271be2d483d0",
+            "productId": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Ana Silva",
+            "avatarUrl": "/mock/avatars/priya-nair.webp",
+            "createdAgo": 3251759765
+        },
+        {
+            "id": "845d20ab-578a-4fcb-8a62-6a950845b0c8",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 3268243448
+        },
+        {
+            "id": "e786e6e6-52ec-4795-8c7d-614279257ac6",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Diego Morales",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 3272867924
+        },
+        {
+            "id": "b1c1dfeb-7b85-41e9-8b01-0aa59e07008d",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Leila Farah",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 3387301071
+        },
+        {
+            "id": "575413cb-9dc1-4b3e-96ee-ba564ae9c3cc",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Ethan Brooks",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 3467527374
+        },
+        {
+            "id": "ad702f25-22dd-42a6-9299-dc7a36b3a736",
+            "productId": "ba40111b-c59e-4218-9724-347aa11a3df2",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 3502712915
+        },
+        {
+            "id": "ddb49828-89bf-4884-92a5-b06dbaf23c6a",
+            "productId": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 3513921005
+        },
+        {
+            "id": "d0df6c92-fab9-4a94-adfb-cfc115b578f2",
+            "productId": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Maya Chen",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 3575372805
+        },
+        {
+            "id": "4bc95596-8c70-479b-a41a-ed006f0341a6",
+            "productId": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 3577345506
+        },
+        {
+            "id": "b70cf6c8-6535-4e65-88c6-f846a6116116",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 3737977208
+        },
+        {
+            "id": "afe2f857-380d-4e2f-a5fb-6efa80d5c6fa",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Jonas Weber",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 3755075249
+        },
+        {
+            "id": "e155dfa5-ddf1-497c-989e-c2596093e3f0",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Zara Ahmed",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 3761950806
+        },
+        {
+            "id": "c4f2b075-8fc8-4718-abcc-ac6b6756e441",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Zara Ahmed",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 3844718781
+        },
+        {
+            "id": "e0e28d86-07c7-4997-9579-b2d662120c48",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Hana Sato",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 3861013147
+        },
+        {
+            "id": "716cf7c9-aa98-4212-b1f4-9b31e55c396f",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 3970145129
+        },
+        {
+            "id": "f26363f0-2846-4810-82ef-0c59be94d82f",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 4007217332
+        },
+        {
+            "id": "50b6d1f3-8566-4a99-9a47-152daddf94b6",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Ana Silva",
+            "avatarUrl": "/mock/avatars/priya-nair.webp",
+            "createdAgo": 4154767179
+        },
+        {
+            "id": "a1547e4c-321d-47fb-bb7f-17bcd961e746",
+            "productId": "29186360-5848-4725-b6b1-1969db8eecb8",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Nina Novak",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 4181625213
+        },
+        {
+            "id": "13163a7a-16a6-498c-a865-341a2216d4ce",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 4207208169
+        },
+        {
+            "id": "b9f36d85-d183-4faa-9206-7c9d6d7756f9",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Hana Sato",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 4244543536
+        },
+        {
+            "id": "f163f2a8-3ad7-4602-94b4-071385794235",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Arjun Mehta",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 4291146106
+        },
+        {
+            "id": "69f5a99c-025c-4b7b-ae5a-582e462f3d02",
+            "productId": "dff4eefb-9f05-4e89-bdee-791e6236e250",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Arjun Mehta",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 4316910983
+        },
+        {
+            "id": "8d4dc076-3f82-48e5-9165-a020ae402182",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Ethan Brooks",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 4357344660
+        },
+        {
+            "id": "058d420d-e583-4d60-b113-04feffdcbe84",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Jonas Weber",
+            "avatarUrl": "/mock/avatars/jonas-weber.webp",
+            "createdAgo": 4481340136
+        },
+        {
+            "id": "b81b91f9-d893-4f4b-92b9-941802f4b0b1",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Victor Dubois",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 4482726112
+        },
+        {
+            "id": "2d777aab-1130-4cfd-967c-4c6d217cccc5",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Noah Kim",
+            "avatarUrl": "/mock/avatars/noah-kim.webp",
+            "createdAgo": 4488930171
+        },
+        {
+            "id": "e6f2f584-314c-4921-bb40-92dc1ff27c02",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Arjun Mehta",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 4503035971
+        },
+        {
+            "id": "5b5ac50b-022b-4794-8a28-4f4f075dbc30",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Ben Carter",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 4528600766
+        },
+        {
+            "id": "552dc29f-ed3e-4eab-a55a-d549151b3031",
+            "productId": "76a6c5de-d8ab-4564-8c59-6e975f228980",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 4649095224
+        },
+        {
+            "id": "475f7c33-f352-4ec1-911c-75cd56580ce4",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 4,
+            "title": "Great value",
+            "body": "Does what it says. I would love a few more examples, but I am happy with it.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 4740338507
+        },
+        {
+            "id": "8654af80-ce05-4e02-85b7-ffa1bcd5f828",
+            "productId": "df3f4401-870f-4ddb-9136-6c500b82f1d5",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Ravi Patel",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 4759941494
+        },
+        {
+            "id": "87ef27a4-1741-4b50-ae05-13351a261974",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Arjun Mehta",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 4820602989
+        },
+        {
+            "id": "a3ab56b0-0e71-4738-8798-c46aa46847cb",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Freya Lindqvist",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 4848368610
+        },
+        {
+            "id": "eda4351c-e809-48b8-9ae7-3c03fb5ed54c",
+            "productId": "29186360-5848-4725-b6b1-1969db8eecb8",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Aisha Khan",
+            "avatarUrl": "/mock/avatars/aisha-khan.webp",
+            "createdAgo": 4908898277
+        },
+        {
+            "id": "10c0a610-346d-41aa-9889-9767db21b719",
+            "productId": "dff4eefb-9f05-4e89-bdee-791e6236e250",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Nina Novak",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 4943468580
+        },
+        {
+            "id": "7e8cfe45-72ae-49c2-b99d-af444c216715",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Ben Carter",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 4974939127
+        },
+        {
+            "id": "c0128f2b-49a8-4a35-bbc0-ee558e60e61b",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 5095922013
+        },
+        {
+            "id": "ab2a411f-2c2e-478f-864e-051d6ce647c5",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Ravi Patel",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 5106669725
+        },
+        {
+            "id": "65f8b7ae-0461-47f9-ad60-6804ca291dac",
+            "productId": "ba40111b-c59e-4218-9724-347aa11a3df2",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 5161480600
+        },
+        {
+            "id": "68418425-da1d-4f44-9524-b92fa83f633f",
+            "productId": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 5308932374
+        },
+        {
+            "id": "f6c6f6e0-526e-4dd9-8bf1-3b726adf6909",
+            "productId": "c12cbea3-3c9e-47ff-a12b-8128129d3c94",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 5331553396
+        },
+        {
+            "id": "9c090bcc-3a6c-4b56-945d-479b72f4fd67",
+            "productId": "df3f4401-870f-4ddb-9136-6c500b82f1d5",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Tom Okafor",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 5361239734
+        },
+        {
+            "id": "ddf4d04d-e486-4f5c-a0b6-c6c6a972d813",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 5525550493
+        },
+        {
+            "id": "e551de78-85a9-4464-bf29-ced184c25b1c",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 5581951153
+        },
+        {
+            "id": "dc995602-5c25-487c-a4ba-153fe3ba846b",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Nina Novak",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 5732672737
+        },
+        {
+            "id": "06227084-b5b5-457f-8a5e-b89da328a0d9",
+            "productId": "29186360-5848-4725-b6b1-1969db8eecb8",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 5755765912
+        },
+        {
+            "id": "b05da5ee-c390-4fe0-9fd6-6aaf37ba319c",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 5836067836
+        },
+        {
+            "id": "e9696a68-0f02-4ea8-a79c-9e8397c8307d",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 5917892885
+        },
+        {
+            "id": "91e57282-7aa9-43c8-a6ef-e3c68d6b0b12",
+            "productId": "81365dfe-0d41-42b8-ae99-8ffc0d46a9f2",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 6011952258
+        },
+        {
+            "id": "9fbc5358-38e6-4427-a5e4-8132e4641b5a",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Grace Lee",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 6174541184
+        },
+        {
+            "id": "89de8f35-3f40-4b58-a971-29796fbcff4b",
+            "productId": "bdbe43f9-e761-43a5-9901-1e2d8d816b58",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Leila Farah",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 6213461171
+        },
+        {
+            "id": "9b77808a-2701-4706-80ad-1d8025c2e326",
+            "productId": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Sam Rivera",
+            "avatarUrl": "/mock/avatars/ravi-patel.webp",
+            "createdAgo": 6446828817
+        },
+        {
+            "id": "4bb90670-5105-47b2-9e40-c43989938bd8",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 6449378537
+        },
+        {
+            "id": "822ca43f-f9fc-4858-b647-0634515813d8",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 6532434597
+        },
+        {
+            "id": "4c125ff9-f9bd-40a6-828c-f8fe3529f34c",
+            "productId": "dff4eefb-9f05-4e89-bdee-791e6236e250",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 6573812452
+        },
+        {
+            "id": "69421aa3-d7d5-41a2-b6a0-c9f7352538c9",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 6588131154
+        },
+        {
+            "id": "dfd9ead6-f871-4bb4-ba5b-94ad93184614",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Ivy Walsh",
+            "avatarUrl": "/mock/avatars/ivy-walsh.webp",
+            "createdAgo": 6637453331
+        },
+        {
+            "id": "6432e4ff-0d9e-47e6-988b-e88bde43a935",
+            "productId": "ff0b09b7-84f3-4a86-8c52-03ebd21e03aa",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 6704336249
+        },
+        {
+            "id": "778aee9a-320f-4a5c-b6d9-a22f38e686ce",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Priya Nair",
+            "avatarUrl": "/mock/avatars/priya-nair.webp",
+            "createdAgo": 6728535600
+        },
+        {
+            "id": "34188d49-33d4-471d-8770-4b99f92a0c7a",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 2,
+            "title": "Not for me",
+            "body": "Looked different from the previews in a few places. Refund process was easy.",
+            "author": "Ryo Tanaka",
+            "avatarUrl": "/mock/avatars/ryo-tanaka.webp",
+            "createdAgo": 6740055699
+        },
+        {
+            "id": "d066a81d-43f6-4d23-88c9-7871a79c0975",
+            "productId": "ba40111b-c59e-4218-9724-347aa11a3df2",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 6782424472
+        },
+        {
+            "id": "af71d6b1-ff65-4319-86e9-156fa28a4373",
+            "productId": "df22e76f-b514-49a2-b358-40a68c402509",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Omar Haddad",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 6808765425
+        },
+        {
+            "id": "2688dd83-b649-4aee-8498-d80453d4146e",
+            "productId": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Sofia Rossi",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 6926886322
+        },
+        {
+            "id": "42d7edba-eb63-4d6b-8087-a13f3883988b",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Hana Sato",
+            "avatarUrl": "/mock/avatars/hana-sato.webp",
+            "createdAgo": 6981691450
+        },
+        {
+            "id": "4497f46e-f071-4ee4-bd1e-6944b51458f0",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Ben Carter",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 7031419894
+        },
+        {
+            "id": "a48597ac-43db-4dd1-8b42-4bc1a2e36bb0",
+            "productId": "29186360-5848-4725-b6b1-1969db8eecb8",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Zara Ahmed",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 7100692923
+        },
+        {
+            "id": "55c00fce-9b92-49d7-b5cd-5e3e30ce2479",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Zara Ahmed",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 7234880067
+        },
+        {
+            "id": "15a55d03-4b01-4543-a980-43f067b60a61",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Nina Novak",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 7361269412
+        },
+        {
+            "id": "cb385b51-5f67-46aa-8b8e-36ca6c99bf18",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "rating": 3,
+            "title": "Decent starting point",
+            "body": "Useful, but I ended up changing more than I expected.",
+            "author": "Omar Haddad",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 7365416604
+        },
+        {
+            "id": "b6c15694-942f-4288-9833-ab09a43da187",
+            "productId": "a7997a58-f50b-42ce-8aef-2cc7c6407b3f",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Leila Farah",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 7368222536
+        },
+        {
+            "id": "c16c1e40-2579-4fb1-a739-54dd6268acbe",
+            "productId": "2aba1755-8196-40ad-af64-a2ffa2a4a65c",
+            "rating": 3,
+            "title": "Okay",
+            "body": "Good quality but not quite the style I was after. Fair price though.",
+            "author": "Freya Lindqvist",
+            "avatarUrl": "/mock/avatars/leila-farah.webp",
+            "createdAgo": 7434827048
+        },
+        {
+            "id": "2426abef-aecf-4453-8a76-ce2872e7fbe8",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Maya Chen",
+            "avatarUrl": "/mock/avatars/mei-lin.webp",
+            "createdAgo": 7518683819
+        },
+        {
+            "id": "bf2e3aff-3d85-4d3f-bf1c-f6e2c6e784fa",
+            "productId": "ca3ed582-85cb-4a3a-8b59-92ed3acd7444",
+            "rating": 5,
+            "title": "Worth every cent",
+            "body": "Thoughtful details everywhere. Updates have been regular too.",
+            "author": "Liam Murphy",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 7552758789
+        },
+        {
+            "id": "56283196-219c-4889-95d5-d57a8b1ef5ae",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Lucas Ferreira",
+            "avatarUrl": "/mock/avatars/liam-murphy.webp",
+            "createdAgo": 7710416448
+        },
+        {
+            "id": "a445da74-3a2a-4a08-9ea8-b1a91859fc90",
+            "productId": "6abad3b1-b7e5-4ae0-82b0-bad3f40df1e1",
+            "rating": 4,
+            "title": "Recommended",
+            "body": "Well organised and easy to customise. Docs could go a little deeper.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 7727177771
+        },
+        {
+            "id": "28588d3c-94e8-4215-a5c1-4f4f10fd165f",
+            "productId": "df3f4401-870f-4ddb-9136-6c500b82f1d5",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Elena Petrova",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 7733089060
+        },
+        {
+            "id": "73b22574-320e-472b-8772-05d974259be8",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 4,
+            "title": "Great value",
+            "body": "Does what it says. I would love a few more examples, but I am happy with it.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 7744081843
+        },
+        {
+            "id": "c2dc069a-5fc5-46cb-a585-791b57b0776e",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Arjun Mehta",
+            "avatarUrl": "/mock/avatars/arjun-mehta.webp",
+            "createdAgo": 7748113181
+        },
+        {
+            "id": "ee82df7e-62a9-4027-9366-abd51f161ea9",
+            "productId": "ba40111b-c59e-4218-9724-347aa11a3df2",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Zara Ahmed",
+            "avatarUrl": "/mock/avatars/zara-ahmed.webp",
+            "createdAgo": 7752903896
+        },
+        {
+            "id": "eb065046-7405-43f1-9ad1-61ecef1f4a6e",
+            "productId": "bd0754ed-645b-4e9d-9620-3f3bb141d2fc",
+            "rating": 5,
+            "title": "Exactly what I needed",
+            "body": "Saved me days of setup. Clean structure and the docs answer the questions before you ask them.",
+            "author": "Chloe Martin",
+            "avatarUrl": "/mock/avatars/ivy-walsh.webp",
+            "createdAgo": 7809136288
+        },
+        {
+            "id": "74f0e50f-e65a-4429-a848-29399837d834",
+            "productId": "c668b591-425a-4d46-b20e-3f5099a225b6",
+            "rating": 4,
+            "title": "Very good, small gaps",
+            "body": "Solid overall. A couple of edge cases I had to handle myself, but nothing major.",
+            "author": "Sofia Rossi",
+            "avatarUrl": "/mock/avatars/elena-petrova.webp",
+            "createdAgo": 8052745336
+        },
+        {
+            "id": "f1499e22-9ba9-414a-b6d2-8abef6dab4b7",
+            "productId": "6abad3b1-b7e5-4ae0-82b0-bad3f40df1e1",
+            "rating": 5,
+            "title": "Best purchase this year",
+            "body": "The quality is obvious the moment you open the files. Already used it on two client projects.",
+            "author": "Kofi Mensah",
+            "avatarUrl": "/mock/avatars/kofi-mensah.webp",
+            "createdAgo": 8086444392
+        },
+        {
+            "id": "fcba5588-46fc-409f-9518-e71368d85e63",
+            "productId": "e0900a27-c7e7-44bc-a63e-9297ba21503c",
+            "rating": 5,
+            "title": "Polished and practical",
+            "body": "Not just pretty — it holds up in a real project. Support replied within a day.",
+            "author": "Diego Morales",
+            "avatarUrl": "/mock/avatars/omar-haddad.webp",
+            "createdAgo": 8251244902
+        }
+    ],
+    "sales": [
+        {
+            "id": "bd2b6e47-8a12-4ae0-b6a1-b574cf65749c",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0005",
+            "paidAgo": 837621582,
+            "buyer": {
+                "name": "Mei Lin",
+                "email": "mei@buyers.example",
+                "avatarUrl": "/mock/avatars/mei-lin.webp"
+            }
+        },
+        {
+            "id": "208d5a37-92a9-437a-9c5d-b478df8ff21a",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0081",
+            "paidAgo": 840016198,
+            "buyer": {
+                "name": "Leila Farah",
+                "email": "leila@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "7cc1854d-9027-4166-be54-f0e76cae624f",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0075",
+            "paidAgo": 846867230,
+            "buyer": {
+                "name": "Ethan Brooks",
+                "email": "ethan@buyers.example",
+                "avatarUrl": "/mock/avatars/jonas-weber.webp"
+            }
+        },
+        {
+            "id": "05eddf00-67d0-4420-ab98-a5fc4a65a899",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0069",
+            "paidAgo": 863259416,
+            "buyer": {
+                "name": "Tom Okafor",
+                "email": "tom@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "be982757-df94-4bcc-9137-7ee10449e4be",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0086",
+            "paidAgo": 890706304,
+            "buyer": {
+                "name": "Chloe Martin",
+                "email": "chloe@buyers.example",
+                "avatarUrl": "/mock/avatars/ivy-walsh.webp"
+            }
+        },
+        {
+            "id": "aa5ebce5-4fe1-4fb3-a89a-13eb16c21d54",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0098",
+            "paidAgo": 893339789,
+            "buyer": {
+                "name": "Isabel Costa",
+                "email": "isabel@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "89d87201-c8e9-4816-909a-72becd2eb3fe",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0025",
+            "paidAgo": 895512278,
+            "buyer": {
+                "name": "Victor Dubois",
+                "email": "victor@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "cb20d813-7d86-4945-a20c-8c44efff72e4",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0016",
+            "paidAgo": 899672462,
+            "buyer": {
+                "name": "Lucas Ferreira",
+                "email": "lucas@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "1ceca650-f4c9-465a-aabd-90d78f6f877a",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0002",
+            "paidAgo": 919217487,
+            "buyer": {
+                "name": "Victor Dubois",
+                "email": "victor@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "53368055-8298-4a0e-b092-f6eebb280c98",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 4130,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0058",
+            "paidAgo": 923100904,
+            "buyer": {
+                "name": "Freya Lindqvist",
+                "email": "freya@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "f2e60193-5881-4865-b333-ff8b2d680c80",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0001",
+            "paidAgo": 923459994,
+            "buyer": {
+                "name": "Zara Ahmed",
+                "email": "zara@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "3598eb69-5c4a-4bd3-8f7c-3bfbe4774fc6",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0094",
+            "paidAgo": 940059865,
+            "buyer": {
+                "name": "Nina Novak",
+                "email": "nina@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "c635f58e-2eb8-412d-8f3f-6d54e55ca754",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0034",
+            "paidAgo": 993109965,
+            "buyer": {
+                "name": "Leila Farah",
+                "email": "leila@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "7e32019d-5007-4eb0-9708-9c86aad7d709",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0046",
+            "paidAgo": 998839395,
+            "buyer": {
+                "name": "Grace Lee",
+                "email": "grace@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "0f3aeb50-cec2-485b-b8a3-ecb41f72e7a3",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0079",
+            "paidAgo": 1002916157,
+            "buyer": {
+                "name": "Ana Silva",
+                "email": "ana@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "ba447a0a-e27a-45fd-a6e6-19e3b4b54272",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0090",
+            "paidAgo": 1019654168,
+            "buyer": {
+                "name": "Priya Nair",
+                "email": "priya@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "e9a78126-f54a-4858-848e-53dce23c7ad8",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0014",
+            "paidAgo": 1020995053,
+            "buyer": {
+                "name": "Hana Sato",
+                "email": "hana@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "462aedce-fa28-4eaf-bbf1-9fa64dc1a103",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 4130,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0061",
+            "paidAgo": 1091045303,
+            "buyer": {
+                "name": "Ryo Tanaka",
+                "email": "ryo@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "dd3ef688-aed1-4678-9733-61fa7fa14d69",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0071",
+            "paidAgo": 1106532961,
+            "buyer": {
+                "name": "Noah Kim",
+                "email": "noah@buyers.example",
+                "avatarUrl": "/mock/avatars/noah-kim.webp"
+            }
+        },
+        {
+            "id": "371a2ef7-a49d-468b-b03c-4759ae9a0ea9",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0072",
+            "paidAgo": 1115824024,
+            "buyer": {
+                "name": "Ben Carter",
+                "email": "ben@buyers.example",
+                "avatarUrl": "/mock/avatars/arjun-mehta.webp"
+            }
+        },
+        {
+            "id": "d7a3cd47-adf9-4acc-86dd-5f4a909ff54e",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0039",
+            "paidAgo": 1118969205,
+            "buyer": {
+                "name": "Ethan Brooks",
+                "email": "ethan@buyers.example",
+                "avatarUrl": "/mock/avatars/jonas-weber.webp"
+            }
+        },
+        {
+            "id": "95d14ba9-c1fc-423a-93b0-399276105f7d",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0048",
+            "paidAgo": 1127037290,
+            "buyer": {
+                "name": "Sam Rivera",
+                "email": "sam@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "48b76703-1a2f-4662-882e-cc4d2b352e77",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0043",
+            "paidAgo": 1150018059,
+            "buyer": {
+                "name": "Tom Okafor",
+                "email": "tom@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "ee3db133-ffb8-489d-9641-ac9d035706a7",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0082",
+            "paidAgo": 1175706000,
+            "buyer": {
+                "name": "Maya Chen",
+                "email": "maya@buyers.example",
+                "avatarUrl": "/mock/avatars/mei-lin.webp"
+            }
+        },
+        {
+            "id": "3c4c80be-7416-4331-b939-3dcd46229ce7",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0052",
+            "paidAgo": 1228654437,
+            "buyer": {
+                "name": "Lucas Ferreira",
+                "email": "lucas@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "cc27410b-d1f7-4538-814c-395a9336a281",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 4130,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0057",
+            "paidAgo": 1306559564,
+            "buyer": {
+                "name": "Ravi Patel",
+                "email": "ravi@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "f1caa98c-26ef-498c-9e74-96c7fecf709e",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0012",
+            "paidAgo": 1324603440,
+            "buyer": {
+                "name": "Ana Silva",
+                "email": "ana@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "01491b9d-f400-4797-9f4f-c2e3ae6fdc2b",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0067",
+            "paidAgo": 1338554151,
+            "buyer": {
+                "name": "Freya Lindqvist",
+                "email": "freya@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "8da19748-0a6e-459c-923a-ff109f3c2ac9",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0092",
+            "paidAgo": 1386843582,
+            "buyer": {
+                "name": "Hana Sato",
+                "email": "hana@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "d1d9e245-671b-4dd4-b9b2-167a95369d1a",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0033",
+            "paidAgo": 1496726875,
+            "buyer": {
+                "name": "Ivy Walsh",
+                "email": "ivy@buyers.example",
+                "avatarUrl": "/mock/avatars/ivy-walsh.webp"
+            }
+        },
+        {
+            "id": "e426ec85-12c5-49a0-b8f4-f8b27ebd73e7",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0073",
+            "paidAgo": 1535237695,
+            "buyer": {
+                "name": "Nina Novak",
+                "email": "nina@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "22ce7f8f-53c0-4c43-995f-4efe577085b2",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 4130,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0054",
+            "paidAgo": 1593534500,
+            "buyer": {
+                "name": "Hana Sato",
+                "email": "hana@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "a0b8c5d1-6c1a-45a6-8241-2f15bee2c0ae",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0074",
+            "paidAgo": 1700797603,
+            "buyer": {
+                "name": "Liam Murphy",
+                "email": "liam@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "4fbed63e-9bbd-4976-82d3-e72e11c78b52",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0065",
+            "paidAgo": 1780690297,
+            "buyer": {
+                "name": "Ravi Patel",
+                "email": "ravi@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "3ec1954c-9e1a-4c66-8624-43cf7174326b",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 4130,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0055",
+            "paidAgo": 1803036963,
+            "buyer": {
+                "name": "Aisha Khan",
+                "email": "aisha@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "4a8579ab-5568-4d02-aa52-23533b227db3",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0100",
+            "paidAgo": 1812982987,
+            "buyer": {
+                "name": "Sam Rivera",
+                "email": "sam@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "e19d1dae-7f68-4eac-a6d5-e8599477ec51",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0089",
+            "paidAgo": 2028549280,
+            "buyer": {
+                "name": "Aisha Khan",
+                "email": "aisha@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "e11252dc-c4d5-4a03-9b6b-e711b21ad277",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0038",
+            "paidAgo": 2172122909,
+            "buyer": {
+                "name": "Diego Morales",
+                "email": "diego@buyers.example",
+                "avatarUrl": "/mock/avatars/omar-haddad.webp"
+            }
+        },
+        {
+            "id": "9c936f81-2fcc-4d8a-b1a5-7f43149efa42",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0017",
+            "paidAgo": 2263327453,
+            "buyer": {
+                "name": "Ethan Brooks",
+                "email": "ethan@buyers.example",
+                "avatarUrl": "/mock/avatars/jonas-weber.webp"
+            }
+        },
+        {
+            "id": "92381fb5-b6b7-48ea-ac91-ebd2d9596adf",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0096",
+            "paidAgo": 2271507368,
+            "buyer": {
+                "name": "Mei Lin",
+                "email": "mei@buyers.example",
+                "avatarUrl": "/mock/avatars/mei-lin.webp"
+            }
+        },
+        {
+            "id": "814ba146-9f08-4146-954d-a39b221a9e1c",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 6320,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0011",
+            "paidAgo": 2338135307,
+            "buyer": {
+                "name": "Liam Murphy",
+                "email": "liam@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "81bd058a-c9a7-4b9c-a3c4-983eb71da5cd",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0051",
+            "paidAgo": 2359615482,
+            "buyer": {
+                "name": "Zara Ahmed",
+                "email": "zara@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "dff9da2d-bf18-47a3-8aaf-aaceb6eff593",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0064",
+            "paidAgo": 2546857461,
+            "buyer": {
+                "name": "Grace Lee",
+                "email": "grace@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "cc185c38-a10d-49cf-a800-df6e3ca6365e",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 5900,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0056",
+            "paidAgo": 2592766910,
+            "buyer": {
+                "name": "Lucas Ferreira",
+                "email": "lucas@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "21e9d853-6939-441a-9fc6-a5fc522534dc",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0063",
+            "paidAgo": 2609024786,
+            "buyer": {
+                "name": "Ryo Tanaka",
+                "email": "ryo@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "55455614-55e4-4c95-ae3c-06730c886853",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0080",
+            "paidAgo": 2689568527,
+            "buyer": {
+                "name": "Isabel Costa",
+                "email": "isabel@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "50755929-cf64-491e-9f13-417fbfc2b2d7",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0042",
+            "paidAgo": 2794903849,
+            "buyer": {
+                "name": "Isabel Costa",
+                "email": "isabel@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "d0bac1b5-01fc-4851-bf3b-832589a42ace",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0028",
+            "paidAgo": 2983094647,
+            "buyer": {
+                "name": "Omar Haddad",
+                "email": "omar@buyers.example",
+                "avatarUrl": "/mock/avatars/omar-haddad.webp"
+            }
+        },
+        {
+            "id": "d27bbd44-458f-46ea-a3a8-4fd52b240f3b",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0040",
+            "paidAgo": 3019161335,
+            "buyer": {
+                "name": "Lucas Ferreira",
+                "email": "lucas@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "7405cfb6-8b69-438a-a445-c18f1bd8228f",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0007",
+            "paidAgo": 3076302621,
+            "buyer": {
+                "name": "Max Schmidt",
+                "email": "max@buyers.example",
+                "avatarUrl": "/mock/avatars/noah-kim.webp"
+            }
+        },
+        {
+            "id": "45d5ddb1-7486-4132-8a9d-448d595badca",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0070",
+            "paidAgo": 3279163589,
+            "buyer": {
+                "name": "Kofi Mensah",
+                "email": "kofi@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "638fe3cd-eb58-40cd-9944-2a48e7f816a7",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0035",
+            "paidAgo": 3354072323,
+            "buyer": {
+                "name": "Ryo Tanaka",
+                "email": "ryo@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "04c52b83-a3e8-4664-bb77-c6c5c171719c",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0021",
+            "paidAgo": 3357308452,
+            "buyer": {
+                "name": "Omar Haddad",
+                "email": "omar@buyers.example",
+                "avatarUrl": "/mock/avatars/omar-haddad.webp"
+            }
+        },
+        {
+            "id": "81bda75d-5764-4c6f-9c3d-453d0793b4a6",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0023",
+            "paidAgo": 3481450535,
+            "buyer": {
+                "name": "Aisha Khan",
+                "email": "aisha@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "19b64aca-4120-4141-9ec1-1cd01af877d2",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0047",
+            "paidAgo": 3622943288,
+            "buyer": {
+                "name": "Elena Petrova",
+                "email": "elena@buyers.example",
+                "avatarUrl": "/mock/avatars/elena-petrova.webp"
+            }
+        },
+        {
+            "id": "5cf7f3e7-aec2-4de3-95c3-9fb21d1e2955",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0013",
+            "paidAgo": 3623809889,
+            "buyer": {
+                "name": "Leila Farah",
+                "email": "leila@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "257f5224-c57e-4a0e-8392-c4916b17d8eb",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0093",
+            "paidAgo": 3664904757,
+            "buyer": {
+                "name": "Ethan Brooks",
+                "email": "ethan@buyers.example",
+                "avatarUrl": "/mock/avatars/jonas-weber.webp"
+            }
+        },
+        {
+            "id": "86c57751-52d5-4539-9883-a1eec2e369b6",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0066",
+            "paidAgo": 3793333474,
+            "buyer": {
+                "name": "Jonas Weber",
+                "email": "jonas@buyers.example",
+                "avatarUrl": "/mock/avatars/jonas-weber.webp"
+            }
+        },
+        {
+            "id": "4f6f12e6-ddab-4df2-b461-321b870adb09",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0009",
+            "paidAgo": 3924596337,
+            "buyer": {
+                "name": "Isabel Costa",
+                "email": "isabel@buyers.example",
+                "avatarUrl": "/mock/avatars/aisha-khan.webp"
+            }
+        },
+        {
+            "id": "b8dace62-5d23-41d3-b3c8-9621d4ff5d9d",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0003",
+            "paidAgo": 3997982111,
+            "buyer": {
+                "name": "Kofi Mensah",
+                "email": "kofi@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "fb5007f2-7b63-44ba-9408-0d80a9aafc42",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0036",
+            "paidAgo": 4008997627,
+            "buyer": {
+                "name": "Zara Ahmed",
+                "email": "zara@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "322b53bd-17e4-452d-a4f1-b6010c9cc811",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 5900,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0059",
+            "paidAgo": 4138885846,
+            "buyer": {
+                "name": "Zara Ahmed",
+                "email": "zara@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "29d8e39b-d60a-48e7-8467-cb4c84857ee1",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0088",
+            "paidAgo": 4398259382,
+            "buyer": {
+                "name": "Hana Sato",
+                "email": "hana@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "3dd2431e-f5c5-4f42-b812-3a6cb0fef8a5",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 5900,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0060",
+            "paidAgo": 4454265760,
+            "buyer": {
+                "name": "Sam Rivera",
+                "email": "sam@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "b1160643-9765-4102-8887-b6843d1e2cd7",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0099",
+            "paidAgo": 4603594993,
+            "buyer": {
+                "name": "Sofia Rossi",
+                "email": "sofia@buyers.example",
+                "avatarUrl": "/mock/avatars/elena-petrova.webp"
+            }
+        },
+        {
+            "id": "66518158-af8d-4ac4-92c7-fdd8f7206d45",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0085",
+            "paidAgo": 4739753302,
+            "buyer": {
+                "name": "Victor Dubois",
+                "email": "victor@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "bd34c9e9-ddc9-485b-887a-742feedbd479",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0008",
+            "paidAgo": 4799552208,
+            "buyer": {
+                "name": "Jonas Weber",
+                "email": "jonas@buyers.example",
+                "avatarUrl": "/mock/avatars/jonas-weber.webp"
+            }
+        },
+        {
+            "id": "f7ac9816-a0d6-4eb4-9f10-63f245f2f432",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0018",
+            "paidAgo": 4826824418,
+            "buyer": {
+                "name": "Ivy Walsh",
+                "email": "ivy@buyers.example",
+                "avatarUrl": "/mock/avatars/ivy-walsh.webp"
+            }
+        },
+        {
+            "id": "a136dcfc-cef0-44b9-b33a-0700fe83fea4",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0006",
+            "paidAgo": 4872649110,
+            "buyer": {
+                "name": "Tom Okafor",
+                "email": "tom@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "02372ecf-4ed9-4b48-b47f-5050b5d76910",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0030",
+            "paidAgo": 4946979372,
+            "buyer": {
+                "name": "Arjun Mehta",
+                "email": "arjun@buyers.example",
+                "avatarUrl": "/mock/avatars/arjun-mehta.webp"
+            }
+        },
+        {
+            "id": "44aa5901-b983-4253-a68e-22109dfda55c",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0087",
+            "paidAgo": 4947513112,
+            "buyer": {
+                "name": "Omar Haddad",
+                "email": "omar@buyers.example",
+                "avatarUrl": "/mock/avatars/omar-haddad.webp"
+            }
+        },
+        {
+            "id": "b1fcd441-b792-422a-bf81-df3efc55c7e1",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0032",
+            "paidAgo": 4994507889,
+            "buyer": {
+                "name": "Noah Kim",
+                "email": "noah@buyers.example",
+                "avatarUrl": "/mock/avatars/noah-kim.webp"
+            }
+        },
+        {
+            "id": "97550289-3d8d-4a22-8f03-fdf0d9996d80",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0053",
+            "paidAgo": 5103831395,
+            "buyer": {
+                "name": "Freya Lindqvist",
+                "email": "freya@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "a6739aed-11ce-4357-bc7a-50b0bc40f1e7",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0027",
+            "paidAgo": 5146518593,
+            "buyer": {
+                "name": "Grace Lee",
+                "email": "grace@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "6250da7f-2ba3-46c8-a1bf-50d41a1e1a52",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0020",
+            "paidAgo": 5157113802,
+            "buyer": {
+                "name": "Sofia Rossi",
+                "email": "sofia@buyers.example",
+                "avatarUrl": "/mock/avatars/elena-petrova.webp"
+            }
+        },
+        {
+            "id": "fc3672bb-f97a-43ae-9507-88c41ca069f5",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0010",
+            "paidAgo": 5300410223,
+            "buyer": {
+                "name": "Ben Carter",
+                "email": "ben@buyers.example",
+                "avatarUrl": "/mock/avatars/arjun-mehta.webp"
+            }
+        },
+        {
+            "id": "ec18312c-74d5-4934-a935-2efdb81251e6",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0068",
+            "paidAgo": 5437291488,
+            "buyer": {
+                "name": "Ivy Walsh",
+                "email": "ivy@buyers.example",
+                "avatarUrl": "/mock/avatars/ivy-walsh.webp"
+            }
+        },
+        {
+            "id": "02955489-8712-412f-940d-c62244a99581",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0091",
+            "paidAgo": 5459699710,
+            "buyer": {
+                "name": "Diego Morales",
+                "email": "diego@buyers.example",
+                "avatarUrl": "/mock/avatars/omar-haddad.webp"
+            }
+        },
+        {
+            "id": "ceca6f94-ff45-47af-84b9-d30db2274a09",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0037",
+            "paidAgo": 5508009403,
+            "buyer": {
+                "name": "Liam Murphy",
+                "email": "liam@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "3c9c2495-36d3-4250-8208-db42d4a30045",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0026",
+            "paidAgo": 5926956262,
+            "buyer": {
+                "name": "Ana Silva",
+                "email": "ana@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "13f266d7-b5b8-48f6-81da-4b1abcf6af92",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0049",
+            "paidAgo": 5982221942,
+            "buyer": {
+                "name": "Priya Nair",
+                "email": "priya@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "393b5681-b8bd-496b-b072-c8e91ab19cde",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0041",
+            "paidAgo": 5988652168,
+            "buyer": {
+                "name": "Kofi Mensah",
+                "email": "kofi@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "80942716-aa0a-4821-8949-88e4e7b3b12b",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0050",
+            "paidAgo": 5993241510,
+            "buyer": {
+                "name": "Ana Silva",
+                "email": "ana@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "16695866-6fa0-4707-a918-63dabcc4bfb3",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0045",
+            "paidAgo": 6246291626,
+            "buyer": {
+                "name": "Ryo Tanaka",
+                "email": "ryo@buyers.example",
+                "avatarUrl": "/mock/avatars/ryo-tanaka.webp"
+            }
+        },
+        {
+            "id": "3508b929-6eff-42a9-97d1-a42abc88e583",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0083",
+            "paidAgo": 6301326370,
+            "buyer": {
+                "name": "Arjun Mehta",
+                "email": "arjun@buyers.example",
+                "avatarUrl": "/mock/avatars/arjun-mehta.webp"
+            }
+        },
+        {
+            "id": "ad890aa1-8d08-48fc-b355-2a2a9c68a24b",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0097",
+            "paidAgo": 6350171069,
+            "buyer": {
+                "name": "Grace Lee",
+                "email": "grace@buyers.example",
+                "avatarUrl": "/mock/avatars/hana-sato.webp"
+            }
+        },
+        {
+            "id": "31fd356d-b430-49cd-8589-f9662006c594",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0078",
+            "paidAgo": 6570939802,
+            "buyer": {
+                "name": "Zara Ahmed",
+                "email": "zara@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "3b1cbda7-0c06-4a2a-93dc-fb08ffd7e380",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0024",
+            "paidAgo": 6835118731,
+            "buyer": {
+                "name": "Sam Rivera",
+                "email": "sam@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "ed747f37-f444-4334-9502-461c474492cb",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0015",
+            "paidAgo": 6895805687,
+            "buyer": {
+                "name": "Elena Petrova",
+                "email": "elena@buyers.example",
+                "avatarUrl": "/mock/avatars/elena-petrova.webp"
+            }
+        },
+        {
+            "id": "b78f7440-1dd1-4bfc-ac38-10e972ddc085",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0022",
+            "paidAgo": 6921077501,
+            "buyer": {
+                "name": "Priya Nair",
+                "email": "priya@buyers.example",
+                "avatarUrl": "/mock/avatars/priya-nair.webp"
+            }
+        },
+        {
+            "id": "96382bf5-4680-4dac-85db-2ad929ec4ba2",
+            "productId": "cbd62670-c418-4acf-a2ab-d3906bf81544",
+            "title": "Relay — React Native Expo Starter",
+            "priceCents": 6900,
+            "listPriceCents": 6900,
+            "receiptNumber": "FCT-SEED-0095",
+            "paidAgo": 7342719585,
+            "buyer": {
+                "name": "Kofi Mensah",
+                "email": "kofi@buyers.example",
+                "avatarUrl": "/mock/avatars/kofi-mensah.webp"
+            }
+        },
+        {
+            "id": "afae6136-498b-4833-b372-e881e4c7210c",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0084",
+            "paidAgo": 7405527534,
+            "buyer": {
+                "name": "Elena Petrova",
+                "email": "elena@buyers.example",
+                "avatarUrl": "/mock/avatars/elena-petrova.webp"
+            }
+        },
+        {
+            "id": "87a13e56-94be-4fd2-8848-b1770e4ddd67",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0029",
+            "paidAgo": 7465034190,
+            "buyer": {
+                "name": "Freya Lindqvist",
+                "email": "freya@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        },
+        {
+            "id": "f060f544-7261-4e60-a676-a59814070a61",
+            "productId": "b602b96b-af47-4acc-8c2d-787491d1c46a",
+            "title": "Pocket — Mobile Banking UI Kit",
+            "priceCents": 5900,
+            "listPriceCents": 5900,
+            "receiptNumber": "FCT-SEED-0062",
+            "paidAgo": 7591176605,
+            "buyer": {
+                "name": "Nina Novak",
+                "email": "nina@buyers.example",
+                "avatarUrl": "/mock/avatars/zara-ahmed.webp"
+            }
+        },
+        {
+            "id": "038c0db4-3d0e-4e6a-ab6b-b7fc63dfc1e0",
+            "productId": "60d24848-7804-493b-a599-611d400a07ae",
+            "title": "Meridian Design System for Figma",
+            "priceCents": 9900,
+            "listPriceCents": 9900,
+            "receiptNumber": "FCT-SEED-0044",
+            "paidAgo": 7742828971,
+            "buyer": {
+                "name": "Omar Haddad",
+                "email": "omar@buyers.example",
+                "avatarUrl": "/mock/avatars/omar-haddad.webp"
+            }
+        },
+        {
+            "id": "f4a23e9d-3c01-4684-8b1d-3d636ba6de24",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0077",
+            "paidAgo": 7968299779,
+            "buyer": {
+                "name": "Max Schmidt",
+                "email": "max@buyers.example",
+                "avatarUrl": "/mock/avatars/noah-kim.webp"
+            }
+        },
+        {
+            "id": "c7cf860e-fb5f-454d-977e-438bd12a0ff2",
+            "productId": "f2112b5a-8fff-422a-8364-d7fe1f23b721",
+            "title": "Launchpad — Next.js SaaS Starter",
+            "priceCents": 14900,
+            "listPriceCents": 14900,
+            "receiptNumber": "FCT-SEED-0031",
+            "paidAgo": 7972396633,
+            "buyer": {
+                "name": "Maya Chen",
+                "email": "maya@buyers.example",
+                "avatarUrl": "/mock/avatars/mei-lin.webp"
+            }
+        },
+        {
+            "id": "489c81e7-f34e-44d4-bc04-452501989a78",
+            "productId": "2e84cf38-b3a7-483a-85fc-7fba38a254f1",
+            "title": "Folio — Astro Portfolio Template",
+            "priceCents": 0,
+            "listPriceCents": 0,
+            "receiptNumber": "FCT-SEED-0076",
+            "paidAgo": 7982487869,
+            "buyer": {
+                "name": "Lucas Ferreira",
+                "email": "lucas@buyers.example",
+                "avatarUrl": "/mock/avatars/liam-murphy.webp"
+            }
+        },
+        {
+            "id": "f967af09-e91d-41a5-a8b1-3e5d02b350fc",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0019",
+            "paidAgo": 7989532289,
+            "buyer": {
+                "name": "Arjun Mehta",
+                "email": "arjun@buyers.example",
+                "avatarUrl": "/mock/avatars/arjun-mehta.webp"
+            }
+        },
+        {
+            "id": "66d4faed-d155-4d97-b42a-c0aad8f46eec",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0000",
+            "paidAgo": 8013135486,
+            "buyer": {
+                "name": "Sam Rivera",
+                "email": "sam@buyers.example",
+                "avatarUrl": "/mock/avatars/ravi-patel.webp"
+            }
+        },
+        {
+            "id": "c5ea064e-ad30-4911-bc1b-9feecd05290d",
+            "productId": "53227b9d-c0d3-457d-aafd-5fe0e336afef",
+            "title": "Orbit — SaaS Admin Dashboard",
+            "priceCents": 7900,
+            "listPriceCents": 7900,
+            "receiptNumber": "FCT-SEED-0004",
+            "paidAgo": 8221473507,
+            "buyer": {
+                "name": "Freya Lindqvist",
+                "email": "freya@buyers.example",
+                "avatarUrl": "/mock/avatars/leila-farah.webp"
+            }
+        }
+    ]
+}
