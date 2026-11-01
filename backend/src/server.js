@@ -9,9 +9,11 @@ import catalogRouter from "./routes/catalog.js";
 import sellerRouter from "./routes/seller.js";
 import stripeWebhookRouter from "./routes/stripe-webhook.js";
 import orderRouter from "./routes/orders.js";
+import aiRouter from "./routes/ai.js";
 
 import { ensureBucket } from "./services/storage.js";
 import { stripeEnabled, stripeTestMode } from "./services/stripe.js";
+import { aiEnabled, aiModel } from "./services/ai.js";
 
 const app = express();
 
@@ -26,6 +28,7 @@ app.use("/api", accountsRouter);
 app.use("/api", catalogRouter);
 app.use("/api/seller", sellerRouter);
 app.use("/api", orderRouter);
+app.use("/api/ai", aiRouter);
 
 app.use("/api", (_req, res) => res.status(404).json({ error: "Not Found." }));
 
@@ -71,6 +74,10 @@ try {
 
 console.log(
     `Payments: ${stripeEnabled() ? `Stripe${stripeTestMode() ? " (Test Mode)" : ""}${config.stripe.webhookSecret ? " + Webhook" : ""}` : "Demo Provider"}`,
+);
+
+console.log(
+    `AI: ${aiEnabled() ? `Groq - ${aiModel()}` : "Heuristic Fallback"}`,
 );
 
 app.listen(config.port, () =>
