@@ -40,7 +40,7 @@ export function OrderHistory() {
                 ) : orders.data.length === 0 ? (
                     <EmptyState
                         icon={Receipt}
-                        title="No purchases yet"
+                        title="No Purchases Yet"
                         action={
                             <Link to="/browse" className="btn-primary">
                                 Find Something

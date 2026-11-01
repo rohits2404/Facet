@@ -66,21 +66,20 @@ function Onboarding() {
                 <h1 className="relative mt-3 text-[48px] leading-[1.02] tracking-[-0.045em] text-white sm:text-[60px]">
                     Open Your Store.
                 </h1>
+
                 <ul className="relative mt-auto space-y-3 pt-12">
                     {[
                         [
-                            [
-                                Wand2,
-                                "Groq Drafts Your Listing From The File You Upload",
-                            ],
-                            [
-                                Package,
-                                "Files Are Stored Privately And Delivered By Expiring Links",
-                            ],
-                            [
-                                Receipt,
-                                "Track Sales, Revenue, Orders And Reviews In One Place",
-                            ],
+                            Wand2,
+                            "Groq Drafts Your Listing From The File You Upload",
+                        ],
+                        [
+                            Package,
+                            "Files Are Stored Privately And Delivered By Expiring Links",
+                        ],
+                        [
+                            Receipt,
+                            "Track Sales, Revenue, Orders And Reviews In One Place",
                         ],
                     ].map(([Icon, text]) => (
                         <li

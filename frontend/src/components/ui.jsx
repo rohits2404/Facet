@@ -128,24 +128,24 @@ export function Delta({ value, suffix = "" }) {
 }
 
 export function Avatar({ name, src, className = "size-8 text-xs" }) {
-    if (src)
-        return (
-            <img
-                src={src}
-                alt=""
-                className={cx("rounded-full object-cover", className)}
-            />
-        );
     return (
-        <span
-            className={cx(
-                "grid shrink-0 place-items-center rounded-full font-semibold text-white",
-                className,
+        <div className="flex items-center gap-2">
+            {src && (
+                <img
+                    src={src}
+                    alt="Profile"
+                    referrerPolicy="no-referrer"
+                    onLoad={() => console.log("Avatar loaded!")}
+                    onError={(e) => console.log("Avatar failed:", e)}
+                    className={cx(
+                        "size-10 rounded-full object-cover",
+                        className,
+                    )}
+                />
             )}
-            style={{ background: "var(--gradient-brand)" }}
-        >
-            {initials(name)}
-        </span>
+
+            {!src && <span>No Profile Image</span>}
+        </div>
     );
 }
 
