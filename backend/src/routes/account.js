@@ -99,11 +99,9 @@ router.post("/products/:id/reviews", requireAuth, async (req, res) => {
         [productId, req.user.id],
     );
     if (!owned.length)
-        return res
-            .status(403)
-            .json({
-                error: "Only customers who own this product can review it.",
-            });
+        return res.status(403).json({
+            error: "Only customers who own this product can review it.",
+        });
 
     await query(
         `INSERT INTO reviews (product_id, user_id, rating, title, body) VALUES ($1, $2, $3, $4, $5)

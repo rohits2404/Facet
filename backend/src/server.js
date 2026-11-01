@@ -5,6 +5,8 @@ import { ZodError } from "zod";
 import { config } from "./config/index.js";
 
 import accountsRouter from "./routes/account.js";
+import catalogRouter from "./routes/catalog.js";
+import { ensureBucket } from "./services/storage.js";
 
 const app = express();
 
@@ -13,6 +15,7 @@ app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (_req, res) => res.json({ ok: true }));
 app.use("/api", accountsRouter);
+app.use("/api", catalogRouter);
 
 app.use("/api", (_req, res) => res.status(404).json({ error: "Not Found." }));
 
@@ -47,6 +50,14 @@ app.use((err, _req, res, _next) => {
         error: "Something Went Wrong On Our Side. Try Again In a Moment.",
     });
 });
+
+try {
+    await ensureBucket();
+} catch (err) {
+    console.warn(
+        `⚠️ Could Not Verify Storage Bucket "${config.s3.bucket}": ${err.message}`,
+    );
+}
 
 app.listen(config.port, () =>
     console.log(`Facet API - http://localhost:${config.port}`),
