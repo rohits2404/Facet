@@ -1,4 +1,9 @@
+
 import { getAccessToken } from "./auth.js";
+
+const API_BASE_URL = (
+    import.meta.env.VITE_API_URL || "/api"
+).replace(/\/+$/, "");
 
 export class ApiError extends Error {
     constructor(message, status, body) {
@@ -9,31 +14,46 @@ export class ApiError extends Error {
 }
 
 async function request(method, path, { body, form, params } = {}) {
-    const url = new URL(`/api${path}`, window.location.origin);
+    const normalizedPath = path.startsWith("/")
+        ? path
+        : `/${path}`;
+
+    const url = new URL(
+        `${API_BASE_URL}${normalizedPath}`,
+        window.location.origin,
+    );
+
     Object.entries(params ?? {}).forEach(([k, v]) => {
-        if (v !== undefined && v !== null && v !== "" && v !== false)
+        if (v !== undefined && v !== null && v !== "" && v !== false) {
             url.searchParams.set(k, v);
+        }
     });
 
     const headers = {};
     const token = await getAccessToken();
+
     if (token) headers.Authorization = `Bearer ${token}`;
     if (body !== undefined) headers["Content-Type"] = "application/json";
 
     const res = await fetch(url, {
         method,
         headers,
+        credentials: "include",
         body: form ?? (body !== undefined ? JSON.stringify(body) : undefined),
     });
 
     if (res.status === 204) return null;
+
     const data = await res.json().catch(() => null);
-    if (!res.ok)
+
+    if (!res.ok) {
         throw new ApiError(
             data?.error ?? `Request failed (${res.status})`,
             res.status,
             data,
         );
+    }
+
     return data;
 }
 
