@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CategoryIcon } from "./CategoryIcon.jsx";
+import { getMediaUrl } from "../lib/api-url.js";
 
 const PALETTES = {
     "ui-kits": ["#f1ecff", "#b9a4ff", "#ffb3d6", "#6a4cff"],
@@ -79,24 +80,34 @@ export function ProductImage({
     size,
     showIcon = true,
 }) {
-    const [failed, setFailed] = useState(false);
-    if (product.thumbnailUrl && !failed) {
+    const [failedUrl, setFailedUrl] = useState(null);
+
+    const imageUrl = getMediaUrl(product.thumbnailUrl);
+    const failed = failedUrl === imageUrl;
+
+    if (imageUrl && !failed) {
         return (
             <div className={`relative overflow-hidden bg-wash ${className}`}>
                 <img
-                    src={product.thumbnailUrl}
-                    alt=""
+                    src={imageUrl}
+                    alt={product.title ?? "Product Image"}
                     loading="lazy"
-                    onError={() => setFailed(true)}
+                    decoding="async"
+                    onError={() => {
+                        console.error("Product Image Failed:", imageUrl);
+                        setFailedUrl(imageUrl);
+                    }}
                     className="absolute inset-0 size-full object-cover"
                 />
             </div>
         );
     }
+
     return (
         <FacetCover
             seed={product.id ?? product.slug}
             category={product.category?.slug}
+            title={product.title}
             className={className}
             size={size}
             showIcon={showIcon}
