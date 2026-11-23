@@ -33,21 +33,42 @@ import {
     Spinner,
 } from "../components/ui.jsx";
 import { CategoryIcon } from "../components/CategoryIcon.jsx";
+import { getMediaUrl } from "../lib/api-url.js";
 
 function Gallery({ product }) {
     const images = [
         product.thumbnailUrl
-            ? { url: product.thumbnailUrl, key: "thumb" }
-            : { cover: true, key: "cover" },
-        ...product.screenshots,
+            ? {
+                  url: getMediaUrl(product.thumbnailUrl),
+                  key: "thumb",
+              }
+            : {
+                  cover: true,
+                  key: "cover",
+              },
+        ...product.screenshots.map((image) => ({
+            ...image,
+            url: getMediaUrl(image.url),
+        })),
     ];
+
     const [active, setActive] = useState(0);
+    const [failedImages, setFailedImages] = useState([]);
+
     const current = images[active] ?? images[0];
+
+    const currentFailed = failedImages.includes(current?.url);
+
+    const handleImageError = (url) => {
+        setFailedImages((previous) =>
+            previous.includes(url) ? previous : [...previous, url],
+        );
+    };
 
     return (
         <div className="card p-2.5">
             <div className="relative overflow-hidden rounded-inner">
-                {current.cover ? (
+                {current.cover || currentFailed ? (
                     <FacetCover
                         seed={product.id}
                         category={product.category?.slug}
@@ -59,44 +80,57 @@ function Gallery({ product }) {
                     <img
                         src={current.url}
                         alt={`${product.title} Preview`}
+                        loading="eager"
+                        decoding="async"
+                        onError={() => handleImageError(current.url)}
                         className="aspect-4/3 w-full bg-wash object-cover"
                     />
                 )}
+
                 <DiscountBadge
                     percent={product.price.discountPercent}
                     className="absolute left-4 top-4 text-xs"
                 />
             </div>
+
             {images.length > 1 && (
                 <div className="flex gap-2.5 overflow-x-auto p-2.5 pb-1">
-                    {images.map((img, i) => (
-                        <button
-                            key={img.key}
-                            onClick={() => setActive(i)}
-                            aria-label={`Show Image ${i + 1}`}
-                            className={cx(
-                                "relative w-24 shrink-0 overflow-hidden rounded-2xl ring-2 ring-offset-2 transition",
-                                i === active
-                                    ? "ring-iris"
-                                    : "ring-transparent opacity-65 hover:opacity-100",
-                            )}
-                        >
-                            {img.cover ? (
-                                <FacetCover
-                                    seed={product.id}
-                                    category={product.category?.slug}
-                                    className="aspect-4/3"
-                                    showIcon={false}
-                                />
-                            ) : (
-                                <img
-                                    src={img.url}
-                                    alt=""
-                                    className="aspect-4/3 w-full object-cover"
-                                />
-                            )}
-                        </button>
-                    ))}
+                    {images.map((img, i) => {
+                        const failed = failedImages.includes(img.url);
+
+                        return (
+                            <button
+                                key={img.key ?? i}
+                                onClick={() => setActive(i)}
+                                aria-label={`Show Image ${i + 1}`}
+                                className={cx(
+                                    "relative w-24 shrink-0 overflow-hidden rounded-2xl ring-2 ring-offset-2 transition",
+                                    i === active
+                                        ? "ring-iris"
+                                        : "ring-transparent opacity-65 hover:opacity-100",
+                                )}
+                            >
+                                {img.cover || failed ? (
+                                    <FacetCover
+                                        seed={product.id}
+                                        category={product.category?.slug}
+                                        className="aspect-4/3"
+                                        showIcon={false}
+                                    />
+                                ) : (
+                                    <img
+                                        src={img.url}
+                                        alt=""
+                                        loading="lazy"
+                                        onError={() =>
+                                            handleImageError(img.url)
+                                        }
+                                        className="aspect-4/3 w-full object-cover"
+                                    />
+                                )}
+                            </button>
+                        );
+                    })}
                 </div>
             )}
         </div>

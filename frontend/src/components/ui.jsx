@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { ArrowUpRight, LoaderCircle, Star } from "lucide-react";
 import { cx, initials, moneyShort } from "../lib/format.js";
+import { getMediaUrl } from "../lib/api-url.js";
 
 export function Rating({ value = 0, count, size = "sm", showValue = true }) {
     const s = size === "lg" ? "size-[18px]" : "size-3.5";
@@ -125,24 +126,34 @@ export function Delta({ value, suffix = "" }) {
     );
 }
 
+
 export function Avatar({ name, src, className = "size-8 text-xs" }) {
-    if (src)
-        return (
-            <img
-                src={src}
-                alt=""
-                className={cx("rounded-full object-cover", className)}
-            />
-        );
+    const imageUrl = getMediaUrl(src);
+
     return (
         <span
             className={cx(
-                "grid shrink-0 place-items-center rounded-full font-semibold text-white",
+                "relative grid shrink-0 place-items-center overflow-hidden rounded-full font-semibold text-white",
                 className,
             )}
             style={{ background: "var(--gradient-brand)" }}
         >
-            {initials(name)}
+            <span aria-hidden="true">
+                {initials(name)}
+            </span>
+
+            {imageUrl && (
+                <img
+                    src={imageUrl}
+                    alt={name ? `${name}'s avatar` : "User avatar"}
+                    loading="lazy"
+                    decoding="async"
+                    onError={(e) => {
+                        e.currentTarget.style.display = "none";
+                    }}
+                    className="absolute inset-0 size-full rounded-full object-cover"
+                />
+            )}
         </span>
     );
 }
