@@ -6,12 +6,14 @@ import { config } from "./config/index.js";
 
 import { ensureBucket } from "./services/storage.js";
 import { stripeEnabled, stripeTestMode } from "./services/stripe.js";
+import { aiEnabled, aiModel } from "./services/ai.js";
 
 import accountRoutes from "./routes/account.js";
 import catalogRoutes from "./routes/catalog.js";
 import sellerRoutes from "./routes/seller.js";
 import stripeWebhooks from "./routes/stripe-webhook.js";
 import orderRoutes from "./routes/orders.js";
+import aiRoutes from "./routes/ai.js";
 
 const app = express();
 
@@ -24,6 +26,7 @@ app.use("/api", accountRoutes);
 app.use("/api", catalogRoutes);
 app.use("/api/seller", sellerRoutes);
 app.use("/api", orderRoutes);
+app.use("/api/ai", aiRoutes);
 
 app.use("/api", (_req, res) => res.status(404).json({ error: "Not Found." }));
 
@@ -69,6 +72,10 @@ try {
 
 console.log(
     `Payments: ${stripeEnabled() ? `Stripe${stripeTestMode() ? " (test mode)" : ""}${config.stripe.webhookSecret ? " + webhook" : ""}` : "demo provider"}`,
+);
+
+console.log(
+    `AI: ${aiEnabled() ? `GROQ · ${aiModel()}` : "heuristic fallback"}`,
 );
 
 app.listen(config.port, () =>
