@@ -258,12 +258,28 @@ router.get("/sellers/:id", async (req, res) => {
     });
 });
 
-router.get("/media/:key", async (req, res) => {
-    const key = [].concat(req.params.key).join("/");
-    if (!isPublicMediaKey(key)) return res.status(404).end();
-    const url = await signedMediaUrl(key, 3600);
-    res.set("Cache-Control", "private, max-age=1800");
-    res.redirect(302, url);
+router.get(/^\/media\/(.+)$/, async (req, res) => {
+    try {
+        const key = req.params[0];
+
+        if (!key || !isPublicMediaKey(key)) {
+            return res.status(404).json({
+                error: "Media Not Found.",
+            });
+        }
+
+        const url = await signedMediaUrl(key, 3600);
+
+        res.set("Cache-Control", "private, max-age=1800");
+
+        return res.redirect(302, url);
+    } catch (error) {
+        console.error("Media Serving Error:", error);
+
+        return res.status(500).json({
+            error: "Unable To Load Media.",
+        });
+    }
 });
 
 export default router;
