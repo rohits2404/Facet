@@ -5,20 +5,25 @@ import { ZodError } from "zod";
 import { config } from "./config/index.js";
 
 import { ensureBucket } from "./services/storage.js";
+import { stripeEnabled, stripeTestMode } from "./services/stripe.js";
 
 import accountRoutes from "./routes/account.js";
 import catalogRoutes from "./routes/catalog.js";
 import sellerRoutes from "./routes/seller.js";
+import stripeWebhooks from "./routes/stripe-webhook.js";
+import orderRoutes from "./routes/orders.js";
 
 const app = express();
 
 app.use(cors({ origin: config.clientOrigin, credentials: true }));
+app.use("/api/webhooks/stripe", stripeWebhooks);
 app.use(express.json({ limit: "1mb" }));
 
 app.get("/api/health", (_req, res) => res.json({ ok: true }));
 app.use("/api", accountRoutes);
 app.use("/api", catalogRoutes);
 app.use("/api/seller", sellerRoutes);
+app.use("/api", orderRoutes);
 
 app.use("/api", (_req, res) => res.status(404).json({ error: "Not Found." }));
 
@@ -61,6 +66,10 @@ try {
         `⚠ Could Not Verify Storage Bucket "${config.s3.bucket}": ${err.message}`,
     );
 }
+
+console.log(
+    `Payments: ${stripeEnabled() ? `Stripe${stripeTestMode() ? " (test mode)" : ""}${config.stripe.webhookSecret ? " + webhook" : ""}` : "demo provider"}`,
+);
 
 app.listen(config.port, () =>
     console.log(`Facet API → http://localhost:${config.port}`),
