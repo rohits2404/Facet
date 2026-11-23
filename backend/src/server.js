@@ -8,6 +8,7 @@ import { ensureBucket } from "./services/storage.js";
 
 import accountRoutes from "./routes/account.js";
 import catalogRoutes from "./routes/catalog.js";
+import sellerRoutes from "./routes/seller.js";
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.use(express.json({ limit: "1mb" }));
 app.get("/api/health", (_req, res) => res.json({ ok: true }));
 app.use("/api", accountRoutes);
 app.use("/api", catalogRoutes);
+app.use("/api/seller", sellerRoutes);
 
 app.use("/api", (_req, res) => res.status(404).json({ error: "Not Found." }));
 
